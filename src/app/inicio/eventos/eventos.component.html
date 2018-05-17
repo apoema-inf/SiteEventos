@@ -1,0 +1,18 @@
+<div class="section white lighten-3">
+  <div class="container">
+    <h4 class="grey-text text-darken-1">Eventos</h4>
+    <div class="divider"></div>
+    <br/>
+    <div class="row">
+
+        <div *ngFor="let evento of eventos">
+          <div class="col s12 m6 l4">
+            <app-evento [evento]="evento"></app-evento>
+          </div>
+        </div>
+
+    </div>
+    <!--row-->
+
+  </div>
+</div>

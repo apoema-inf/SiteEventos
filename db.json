@@ -1,0 +1,22 @@
+{
+	"normas": [
+		{
+			"id": 1,
+			"nome": "ISO 9001:2000",
+			"categoria": "Geral",
+			"descricao": "Para solucionar as dificuldades da anterior, esta norma combinava as 9001, 9002 e 9003 em uma única, doravante denominada simplesmente 9001:2000. Os processos de projeto e desenvolvimento eram requeridos apenas para empresas que, de fato, investiam na criação de novos produtos, inovando ao estabelecer o conceito de controle de processo antes e durante o processo. Esta nova versão exigia ainda o envolvimento da gestão para promover a integração da qualidade internamente na própria organização, definindo um responsável pelas ações da qualidade. Adicionalmente, pretendia-se melhorar o gerenciamento de processos por meio de aferições de desempenho e pela implementação de indicadores para medir a efetividade das ações e atividades desenvolvidas. Mas a principal mudança na norma foi a introdução da visão de foco no cliente. Anteriormente, o cliente era visto como externo à organização, e doravante passava a ser percebido como integrante do sistema da organização. A qualidade, desse modo, passava a ser considerada como uma variável de múltiplas dimensões, definida pelo cliente, por suas necessidades e desejos. Além disso, não eram considerados como clientes apenas os consumidores finais do produto, mas todos os envolvidos na cadeia de produção."
+		},
+		{
+			"id": 2,
+			"nome": "ISO 9001:2015",
+			"categoria": "Geral",
+			"descricao": "Para solucionar as dificuldades da anterior, esta norma combinava as 9001, 9002 e 9003 em uma única, doravante denominada simplesmente 9001:2000. Os processos de projeto e desenvolvimento eram requeridos apenas para empresas que, de fato, investiam na criação de novos produtos, inovando ao estabelecer o conceito de controle de processo antes e durante o processo. Esta nova versão exigia ainda o envolvimento da gestão para promover a integração da qualidade internamente na própria organização, definindo um responsável pelas ações da qualidade. Adicionalmente, pretendia-se melhorar o gerenciamento de processos por meio de aferições de desempenho e pela implementação de indicadores para medir a efetividade das ações e atividades desenvolvidas. Mas a principal mudança na norma foi a introdução da visão de foco no cliente. Anteriormente, o cliente era visto como externo à organização, e doravante passava a ser percebido como integrante do sistema da organização. A qualidade, desse modo, passava a ser considerada como uma variável de múltiplas dimensões, definida pelo cliente, por suas necessidades e desejos. Além disso, não eram considerados como clientes apenas os consumidores finais do produto, mas todos os envolvidos na cadeia de produção."
+		},
+		{
+			"id": 3,
+			"nome": "ISO 9004:2010",
+			"categoria": "Geral",
+			"descricao": "Depois de sofrer um processo de revisão, a NBR ISO 9004:2010 fornece orientação para apoiar qualquer organização que esteja operando dentro de um ambiente complexo e exigente, e sempre em mudança, a alcançar o sucesso sustentado, através de uma abordagem de gestão da qualidade. O sucesso sustentado de uma organização e alcançado através da sua habilidade em atender as necessidades e expectativas dos seus clientes e demais partes interessadas, a longo prazo e de forma equilibrada. O sucesso sustentado pode ser alcançado pela gestão eficaz da organização, através da consciência do ambiente organizacional, pelo aprendizado e pela introdução de melhorias ou inovações, ou ambas."
+		}
+	]
+}

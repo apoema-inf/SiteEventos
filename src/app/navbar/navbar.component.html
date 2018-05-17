@@ -1,0 +1,20 @@
+<div class="navbar">
+  <nav class="purple darken-2">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="/" class="brand-logo">
+      <img style="padding-top:10px; max-width: 120px;" src="../assets/images/ufg-logo.png">
+    </a>
+    <a href="#" data-activates="nav-mobile" class="button-collapse" materialize="sideNav"
+    [materializeParams]="[{menuWidth: 300,edge: 'left', closeOnClick: true, draggable: true}]"><i class="material-icons">menu</i>
+    </a>
+  <ul class="right hide-on-med-and-down">
+    <li routerLinkActive="active"><a routerLink="/inicio">Inicio</a></li>
+    <li routerLinkActive="active"><a routerLink="/sobre">Sobre</a></li>
+  </ul>
+  <ul id="nav-mobile" class="side-nav">
+    <li routerLinkActive="active"><a routerLink="/inicio">Inicio</a></li>
+    <li routerLinkActive="active"><a routerLink="/sobre">Sobre</a></li>
+  </ul>
+  </div>
+</nav>
+</div> 
