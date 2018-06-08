@@ -38,20 +38,14 @@ export const EVENTOS: Evento[] = [
         ' entre a academia e o mercado de trabalho.'
     },
     {
-        id: 'obi',
-        nome: 'Olimpíada Brasileira de Informática',
-        imgvertical: '../assets/images/obi-vertical.png',
-        imghorizontal: '../assets/images/obi-horizontal.png',
-        data: '18 e 19 de Junho de 2018',
-        publicoalvo: 'Estudantes do Ensino Médio',
-        local: 'Instituto de Informática',
-        coordenador: 'Profº Wellington',
-        sinopse: 'O Objetivo é divulgar a Olimpíada Brasileira de Informática nas escolas de ensino fundamental,'+
-        ' médio e superior em Goiás, e fornecer treinamento para alunos dessas escolas.A realização acontece com'+
-        'aulas presenciais no Campus 2 UFG. Pretende-se acrescentar turmas de ensino à distância já nas próximas edições.'+
-        'Resultados esperados: aproximar a universidade dos ensinos médio e fundamental, promover a difusão dos conteúdos '+
-        'de disciplinas de programação de computadores, identificar talentos e vocações nas escolas, instruir e encaminhar'+
-        ' os alunos para carreiras acadêmica, científica e tecnológica, estabelecer o INF/UFG como sede da OBI em Goiás,'+
-        ' em todas as fases da competição.'
+        id: 'id',
+        nome: 'Nome do evento',
+        imgvertical: '../assets/images/fgsl-vertical.png',
+        imghorizontal: '../assets/images/fgsl-horizontal.png',
+        data: 'Data do evento',
+        publicoalvo: 'Público-alvo do evento',
+        local: 'Local do evento',
+        coordenador: 'Nome do coordenador do evento',
+        sinopse: 'Aqui será a descrição do evento'
     }
 ];

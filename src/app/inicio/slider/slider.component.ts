@@ -14,6 +14,7 @@ export class SliderComponent implements OnInit {
 
   ngOnInit() {
     this.eventoService.getEventos();
+    (<any>$('.slider')).slider();
   }
 
   eventos: Evento[];

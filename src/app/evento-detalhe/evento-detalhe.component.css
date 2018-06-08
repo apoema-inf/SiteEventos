@@ -12,3 +12,11 @@
 .galeria{
     background-image: url("../../assets/images/img-background.jpg");
 }
+
+.bg-fotos {
+    background-color: #313131;
+}
+
+.bg-realiza {
+    background-color: #007acc;
+}
