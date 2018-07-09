@@ -34,6 +34,12 @@
             </td>
             <td>{{evento.coordenador}}</td>
           </tr>
+          <tr>
+            <td>
+              <b>Tipo: </b>
+            </td>
+            <td>{{evento.tipo}}</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -52,9 +58,9 @@
         <tbody>
           <tr>
             <td>
-              <b>Data:</b>
+              <b>Periodicidade:</b>
             </td>
-            <td>{{evento.data}}</td>
+            <td>{{evento.periodicidade}}</td>
           </tr>
           <tr>
             <td>
@@ -67,6 +73,18 @@
               <b>Público Alvo:</b>
             </td>
             <td>{{evento.publicoalvo}}</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estimativa:</b>
+            </td>
+            <td>{{evento.estimativa}}</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Itens de apoio:</b>
+            </td>
+            <td>{{evento.itens}}</td>
           </tr>
         </tbody>
       </table>
@@ -83,16 +101,16 @@
     <br/>
     <div class="row">
       <div class="col s12 m6 l6">
-        <img materialize="materialbox" class="materialboxed img-boxed" src="../assets/images/foto-antiga-ufg.jpg">
+        <img materialize="materialbox" class="materialboxed img-boxed" src={{evento.img1}}>
       </div>
       <div class="col s12 m6 l6">
-        <img materialize="materialbox" class="materialboxed img-boxed" src="../assets/images/foto-antiga-ufg.jpg">
+        <img  materialize="materialbox" class="materialboxed img-boxed" src={{evento.img2}}>
       </div>
       <div class="col s12 m6 l6">
-        <img materialize="materialbox" class="materialboxed img-boxed" src="../assets/images/foto-antiga-ufg.jpg">
+        <img  materialize="materialbox" class="materialboxed img-boxed" src={{evento.img3}}>
       </div>
       <div class="col s12 m6 l6">
-        <img materialize="materialbox" class="materialboxed img-boxed" src="../assets/images/foto-antiga-ufg.jpg">
+        <img  materialize="materialbox" class="materialboxed img-boxed" src={{evento.img4}}>
       </div>
 
     </div>

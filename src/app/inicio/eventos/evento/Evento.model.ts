@@ -3,9 +3,16 @@ export interface Evento {
     nome: string;
     imgvertical: string;
     imghorizontal: string;
-    data: string;
+    periodicidade: string;
+    tipo: string;
+    estimativa: string;
+    itens: string;
     publicoalvo: string;
     local: string;
     coordenador: string;
     sinopse: string;
+    img1: string;
+    img2: string;
+    img3: string;
+    img4: string;
 }

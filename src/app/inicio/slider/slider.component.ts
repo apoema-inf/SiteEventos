@@ -2,6 +2,7 @@ import { EventoService } from '../eventos/eventos.service';
 import { Component, OnInit } from '@angular/core';
 import { MaterializeAction } from 'angular2-materialize';
 import { Evento } from '../eventos/evento/Evento.model';
+import { TypeScriptEmitter } from '@angular/compiler';
 
 @Component({
   selector: 'app-slider',
@@ -13,13 +14,11 @@ export class SliderComponent implements OnInit {
   constructor(private eventoService: EventoService) { }
 
   ngOnInit() {
+    (<any>$('.slider')).slider();    
     this.eventoService.getEventos();
-    (<any>$('.slider')).slider();
   }
 
   eventos: Evento[];
-
-  slideConfig = {"slidesToShow": 4, "slidesToScroll": 4};
 
   getEventos(): void{
     this.eventoService.getEventos()

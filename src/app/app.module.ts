@@ -16,7 +16,7 @@ import { SliderComponent } from './inicio/slider/slider.component';
 import { EventosComponent } from './inicio/eventos/eventos.component';
 import { EventoDetalheComponent } from './evento-detalhe/evento-detalhe.component';
 import { EventoComponent } from './inicio/eventos/evento/evento.component';
-
+import * as $ from "jquery";
 
 @NgModule({
   declarations: [
