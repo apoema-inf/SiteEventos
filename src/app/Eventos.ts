@@ -15,7 +15,7 @@ export const EVENTOS: Evento[] = [
         coordenador: 'Profº Wellington',
         sinopse: 'A Olimpíada Brasíliera de Informática tem por objetivo'+
         'aproximar a universidade e os alunos do ensino médio'+
-        'e fundamental, bem como promover a difusão dos con-'+
+        'e fundamental, bem como promover a difusão dos con'+
         'teúdos de disciplinas de programação de computado'+
         'res; identificar talentos e vocações nas escolas, de mo'+
         'do a instruir e encaminhar os alunos para carreiras aca'+
@@ -100,7 +100,7 @@ export const EVENTOS: Evento[] = [
     {
         id: 'jges',
         nome: 'Jornada Goiana de Engenharia de Software',
-        imgvertical: "../assets/images/fges-vertical.jpg",
+        imgvertical: "../assets/images/fges-vertical.png",
         imghorizontal: 'http://www.inf.ufg.br/sites/default/files/uploads/chamada-jornada-goiania-software-2017.png',
         periodicidade: 'Anual',
         estimativa: '100 pessoas',
@@ -137,7 +137,7 @@ export const EVENTOS: Evento[] = [
         'Regional de Sistemas - ERSI e o Escola Regio'+
         'nal de Alto Desempenho - ERAD, desenvolvidos'+
         'em conjunto, pelo Instituto de Informática, de'+
-        'cunho acadêmico e técnico/científico que con-'+
+        'cunho acadêmico e técnico/científico que con'+
         'tém diversos assuntos inovadores na área de'+
         'informática cujo principal propósito é aproxi'+
         'mar a pesquisa científica das necessidades do'+
