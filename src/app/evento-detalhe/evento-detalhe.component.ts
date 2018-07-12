@@ -21,6 +21,7 @@ export class EventoDetalheComponent implements OnInit {
 
   ngOnInit() {
     this.getEvento();
+    document.getElementById("sinopse").innerHTML = this.evento.sinopse;
   }
 
   getEvento(): void {

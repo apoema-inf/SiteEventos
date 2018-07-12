@@ -101,7 +101,7 @@ export const EVENTOS: Evento[] = [
         id: 'jges',
         nome: 'Jornada Goiana de Engenharia de Software',
         imgvertical: "../assets/images/fges-vertical.png",
-        imghorizontal: 'http://www.inf.ufg.br/sites/default/files/uploads/chamada-jornada-goiania-software-2017.png',
+        imghorizontal: '../assets/images/jges-horizontal.png',
         periodicidade: 'Anual',
         estimativa: '100 pessoas',
         publicoalvo: 'Alunos e profissionais da área de Engenharia de Software',
@@ -172,7 +172,7 @@ export const EVENTOS: Evento[] = [
         id: 'esp-prof',
         nome: 'Espaço das Profissões',
         imgvertical: "../assets/images/esp-vertical.png",
-        imghorizontal: 'http://www.inf.ufg.br/sites/default/files/uploads/banner_site-espaco-das-profissoes-2018.jpg?1528726046',
+        imghorizontal: '../assets/images/esp-horizontal.jpg',
         periodicidade: 'Anual',
         estimativa: '400 pessoas',
         publicoalvo: 'Alunos do Ensino Médio',
@@ -191,5 +191,32 @@ export const EVENTOS: Evento[] = [
         img2:'./assets/images/esp2.jpg',
         img3:'./assets/images/esp3.jpg',
         img4:'./assets/images/esp4.jpg'
+    },
+    {
+        id: 'cbs',
+        nome: 'Congresso Brasileiro de Sistemas',
+        imgvertical: "../assets/images/cbs-vertical.png",
+        imghorizontal: '../assets/images/cbs-horizontal.png',
+        periodicidade: 'Anual',
+        estimativa: '300 pessoas',
+        publicoalvo: 'Toda comunidade científica, pensadores e praticantes das abordagens sistêmicas, sistemistas e demais simpatizantes, em particular a comunidade de Sistemas de Informação. ',
+        local: 'Universidade Federal de Goiás - UFG',
+        itens: 'Não divulgado.',
+        tipo: 'Congresso',
+        coordenador: 'Eliomar Araújo de Lima',
+        sinopse: 'O 14° Congresso Brasileiro de Sistemas será realizado nos dias 25 e 26 de outubro de 2018, em Goiânia, na Universidade Federal de Goiás, sob o título: "Pensamento Sistêmico em Revista: aprendizados e conquistas ante o superlativismo cibernético e a sociedade pós-industrial".<br><br>'+ 
+        'Visando propagação do conhecimento que vem sendo desenvolvido na área, serão bem-vindos os trabalhos dentro das seguintes temáticas:<br>'+
+        'I. Epistemologia e Pesquisa Sistêmica<br>'+
+        'II. Tecnologia e Sistemas e Informação e Comunicação<br>'+
+        'III. Administração e Redes entre Organizações<br>'+
+        'IV. Sociologia e Políticas Públicas<br>'+
+        'V. Economia e Desenvolvimento<br>'+
+        'VI. Psicologia e Saúde<br>'+
+        'VII. Inovação Sistêmica',
+        img1:'./assets/images/cbs1.png',
+        img2:'',
+        img3:'',
+        img4:''
     }
+
 ];
