@@ -25,7 +25,9 @@ export const EVENTOS: Evento[] = [
         img1:'./assets/images/obi1.jpg',
         img2:'./assets/images/obi2.jpg',
         img3:'./assets/images/obi3.jpg',
-        img4:'./assets/images/obi4.jpg'
+        img4:'./assets/images/obi4.jpg',
+        img5:'',
+        img6:''
     },
     {
         id: 'obr',
@@ -48,7 +50,9 @@ export const EVENTOS: Evento[] = [
         img1:'./assets/images/obr1.jpg',
         img2:'./assets/images/obr2.jpg',
         img3:'./assets/images/obr3.jpg',
-        img4:'./assets/images/obr4.jpg'
+        img4:'./assets/images/obr4.jpg',
+        img5:'./assets/images/obr5.jpg',
+        img6:''
     },
     {
         id: 'marat-prog',
@@ -74,8 +78,10 @@ export const EVENTOS: Evento[] = [
         'da Maratona.',
         img1:'./assets/images/m1.jpg',
         img2:'./assets/images/m2.jpg',
-        img3:'./assets/images/m3.jpg',
-        img4:'./assets/images/m4.jpg'
+        img3:'./assets/images/m6.jpg',
+        img4:'./assets/images/m4.jpg',
+        img5:'./assets/images/m5.jpg',
+        img6:'./assets/images/m3.jpg'
     },
     {
         id: 'work-ia',
@@ -95,7 +101,9 @@ export const EVENTOS: Evento[] = [
         img1:'./assets/images/ia1.JPG',
         img2:'./assets/images/ia2.JPG',
         img3:'./assets/images/ia3.JPG',
-        img4:'./assets/images/ia4.JPG'
+        img4:'./assets/images/ia4.JPG',
+        img5:'',
+        img6:''
     },
     {
         id: 'jges',
@@ -119,7 +127,9 @@ export const EVENTOS: Evento[] = [
         img1:'./assets/images/jges1.jpg',
         img2:'./assets/images/jges2.jpg',
         img3:'./assets/images/jges3.jpg',
-        img4:'./assets/images/jges4.jpg'
+        img4:'./assets/images/jges5.jpg',
+        img5:'./assets/images/jges4.jpg',
+        img6:''
     },
     {
         id: 'eri-ersi-erad',
@@ -145,7 +155,9 @@ export const EVENTOS: Evento[] = [
         img1:'./assets/images/eri1.jpg',
         img2:'./assets/images/eri2.jpg',
         img3:'./assets/images/eri3.jpg',
-        img4:'./assets/images/eri4.jpg'
+        img4:'./assets/images/eri4.jpg',
+        img5:'',
+        img6:''
     },
     {
         id: 'dev',
@@ -166,7 +178,9 @@ export const EVENTOS: Evento[] = [
         img1:'./assets/images/dev3.jpeg',
         img2:'./assets/images/dev1.jpeg',
         img3:'./assets/images/dev4.jpeg',
-        img4:'./assets/images/dev3.jpeg'
+        img4:'./assets/images/dev3.jpeg',
+        img5:'',
+        img6:''
     },
     {
         id: 'esp-prof',
@@ -190,7 +204,9 @@ export const EVENTOS: Evento[] = [
         img1:'./assets/images/esp1.jpg',
         img2:'./assets/images/esp2.jpg',
         img3:'./assets/images/esp3.jpg',
-        img4:'./assets/images/esp4.jpg'
+        img4:'./assets/images/esp4.jpg',
+        img5:'',
+        img6:''
     },
     {
         id: 'cbs',
@@ -213,10 +229,12 @@ export const EVENTOS: Evento[] = [
         'V. Economia e Desenvolvimento<br>'+
         'VI. Psicologia e Saúde<br>'+
         'VII. Inovação Sistêmica',
-        img1:'./assets/images/cbs1.png',
-        img2:'',
-        img3:'',
-        img4:''
+        img1:'./assets/images/cbs5.jpg',
+        img2:'./assets/images/cbs2.jpeg',
+        img3:'./assets/images/cbs3.jpg',
+        img4:'./assets/images/cbs4.jpeg',
+        img5:'./assets/images/cbs1.png',
+        img6:''
     }
 
 ];
