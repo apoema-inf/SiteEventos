@@ -135,7 +135,7 @@ export const EVENTOS: Evento[] = [
         id: 'eri-ersi-erad',
         nome: 'ERI-GO ERSI-GO ERAD-GO',
         imgvertical: "../assets/images/ersigo-vertical.png",
-        imghorizontal: '../assets/images/ersigo-horizontal.png',
+        imghorizontal: '',
         periodicidade: 'Anual',
         estimativa: '300 pessoas',
         publicoalvo: 'Alunos de Graduação e Pós-graduação, empresas, órgãos governamentais e profissionais da área.',
