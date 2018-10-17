@@ -2,6 +2,34 @@ import { Evento } from './inicio/eventos/evento/Evento.model';
 
 export const EVENTOS: Evento[] = [
     {
+        id: 'cbs',
+        nome: 'Congresso Brasileiro de Sistemas',
+        imgvertical: "../assets/images/cbs-vertical.png",
+        imghorizontal: '../assets/images/cbs-horizontal.png',
+        periodicidade: 'Anual',
+        estimativa: '300 pessoas',
+        publicoalvo: 'Toda comunidade científica, pensadores e praticantes das abordagens sistêmicas, sistemistas e demais simpatizantes, em particular a comunidade de Sistemas de Informação. ',
+        local: 'Universidade Federal de Goiás - UFG',
+        itens: 'Não divulgado.',
+        tipo: 'Congresso',
+        coordenador: 'Eliomar Araújo de Lima',
+        sinopse: '<a align="middle" href="assets/Programacao14CBS_completa.pdf" download><img src="assets/images/pdf.png">Programação Completa</a><br><br>O 14° Congresso Brasileiro de Sistemas será realizado nos dias 25 e 26 de outubro de 2018, em Goiânia, na Universidade Federal de Goiás, sob o título: "Pensamento Sistêmico em Revista: aprendizados e conquistas ante o superlativismo cibernético e a sociedade pós-industrial".<br><br>'+ 
+        'Visando propagação do conhecimento que vem sendo desenvolvido na área, serão bem-vindos os trabalhos dentro das seguintes temáticas:<br>'+
+        'I. Epistemologia e Pesquisa Sistêmica<br>'+
+        'II. Tecnologia e Sistemas e Informação e Comunicação<br>'+
+        'III. Administração e Redes entre Organizações<br>'+
+        'IV. Sociologia e Políticas Públicas<br>'+
+        'V. Economia e Desenvolvimento<br>'+
+        'VI. Psicologia e Saúde<br>'+
+        'VII. Inovação Sistêmica',
+        img1:'./assets/images/cbs5.jpg',
+        img2:'./assets/images/cbs2.jpeg',
+        img3:'./assets/images/cbs3.jpg',
+        img4:'./assets/images/cbs4.jpeg',
+        img5:'./assets/images/cbs1.png',
+        img6:''
+    },
+    {
         id: 'obi',
         nome: 'Olimpíada Brasileira de Informática',
         imgvertical: '../assets/images/obi-vertical.png',
@@ -206,34 +234,6 @@ export const EVENTOS: Evento[] = [
         img3:'./assets/images/esp3.jpg',
         img4:'./assets/images/esp4.jpg',
         img5:'',
-        img6:''
-    },
-    {
-        id: 'cbs',
-        nome: 'Congresso Brasileiro de Sistemas',
-        imgvertical: "../assets/images/cbs-vertical.png",
-        imghorizontal: '../assets/images/cbs-horizontal.png',
-        periodicidade: 'Anual',
-        estimativa: '300 pessoas',
-        publicoalvo: 'Toda comunidade científica, pensadores e praticantes das abordagens sistêmicas, sistemistas e demais simpatizantes, em particular a comunidade de Sistemas de Informação. ',
-        local: 'Universidade Federal de Goiás - UFG',
-        itens: 'Não divulgado.',
-        tipo: 'Congresso',
-        coordenador: 'Eliomar Araújo de Lima',
-        sinopse: 'O 14° Congresso Brasileiro de Sistemas será realizado nos dias 25 e 26 de outubro de 2018, em Goiânia, na Universidade Federal de Goiás, sob o título: "Pensamento Sistêmico em Revista: aprendizados e conquistas ante o superlativismo cibernético e a sociedade pós-industrial".<br><br>'+ 
-        'Visando propagação do conhecimento que vem sendo desenvolvido na área, serão bem-vindos os trabalhos dentro das seguintes temáticas:<br>'+
-        'I. Epistemologia e Pesquisa Sistêmica<br>'+
-        'II. Tecnologia e Sistemas e Informação e Comunicação<br>'+
-        'III. Administração e Redes entre Organizações<br>'+
-        'IV. Sociologia e Políticas Públicas<br>'+
-        'V. Economia e Desenvolvimento<br>'+
-        'VI. Psicologia e Saúde<br>'+
-        'VII. Inovação Sistêmica',
-        img1:'./assets/images/cbs5.jpg',
-        img2:'./assets/images/cbs2.jpeg',
-        img3:'./assets/images/cbs3.jpg',
-        img4:'./assets/images/cbs4.jpeg',
-        img5:'./assets/images/cbs1.png',
         img6:''
     }
 
