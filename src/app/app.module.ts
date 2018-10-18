@@ -17,6 +17,7 @@ import { EventosComponent } from './inicio/eventos/eventos.component';
 import { EventoDetalheComponent } from './evento-detalhe/evento-detalhe.component';
 import { EventoComponent } from './inicio/eventos/evento/evento.component';
 import * as $ from "jquery";
+import { ProgramacaocbsComponent } from './programacaocbs/programacaocbs.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import * as $ from "jquery";
     SliderComponent,
     EventosComponent,
     EventoDetalheComponent,
-    EventoComponent
+    EventoComponent,
+    ProgramacaocbsComponent
   ],
   imports: [
     BrowserModule,

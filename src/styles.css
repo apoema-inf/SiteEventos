@@ -8,3 +8,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.font-bold {
+    font-weight: bold;
+}
+
+.linha-vertical {
+    height: 100%;/*Altura da linha*/
+    border-left: 1px solid grey;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}

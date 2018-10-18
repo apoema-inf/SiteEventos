@@ -5,12 +5,14 @@ import { CommonModule } from '@angular/common';
 
 import { SobreComponent } from './sobre/sobre.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ProgramacaocbsComponent } from './programacaocbs/programacaocbs.component';
 
 const routes: Routes = [
    { path: '', redirectTo: '/inicio', pathMatch: 'full' },
    { path: 'inicio', component: InicioComponent},
    { path: 'sobre', component: SobreComponent},
    { path: 'evento/:id', component: EventoDetalheComponent },
+   { path: 'programacaocbs', component: ProgramacaocbsComponent}
 ];
 
 @NgModule({

@@ -13,7 +13,7 @@ export const EVENTOS: Evento[] = [
         itens: 'Não divulgado.',
         tipo: 'Congresso',
         coordenador: 'Eliomar Araújo de Lima',
-        sinopse: '<a align="middle" href="assets/Programacao14CBS_completa.pdf" download><img src="assets/images/pdf.png">Programação Completa</a><br><br>O 14° Congresso Brasileiro de Sistemas será realizado nos dias 25 e 26 de outubro de 2018, em Goiânia, na Universidade Federal de Goiás, sob o título: "Pensamento Sistêmico em Revista: aprendizados e conquistas ante o superlativismo cibernético e a sociedade pós-industrial".<br><br>'+ 
+        sinopse: '<a align="middle" href="assets/Programacao_14CBS.pdf" download><img src="assets/images/pdf.png">Programação Completa</a><br><br>O 14° Congresso Brasileiro de Sistemas será realizado nos dias 25 e 26 de outubro de 2018, em Goiânia, na Universidade Federal de Goiás, sob o título: "Pensamento Sistêmico em Revista: aprendizados e conquistas ante o superlativismo cibernético e a sociedade pós-industrial".<br><br>'+ 
         'Visando propagação do conhecimento que vem sendo desenvolvido na área, serão bem-vindos os trabalhos dentro das seguintes temáticas:<br>'+
         'I. Epistemologia e Pesquisa Sistêmica<br>'+
         'II. Tecnologia e Sistemas e Informação e Comunicação<br>'+
@@ -27,6 +27,31 @@ export const EVENTOS: Evento[] = [
         img3:'./assets/images/cbs3.jpg',
         img4:'./assets/images/cbs4.jpeg',
         img5:'./assets/images/cbs1.png',
+        img6:''
+    },
+    {
+        id: 'obr',
+        nome: 'Olimpíada Brasileira de Robótica',
+        imgvertical: '../assets/images/logo-obr.png',
+        imghorizontal: '../assets/images/obr.png',
+        periodicidade: 'Anual',
+        publicoalvo: 'Alunos do Ensino Fundamental e Médio',
+        local: 'Centro de Cultura e Eventos Prof. Ricardo Freua Bufáiçal - UFG',
+        tipo: 'Competição de estudantes do Ensino Médio e Fundamental',
+        estimativa: '1.000 pessoas',
+        itens: 'Camisetas, material gráfico, lanches, placas de acrílico, placas de MDF e perfis de alumínio.',
+        coordenador: 'Profa. Dra. Telma Woerle Soares e Prof. Dr. Anderson da Silva Soares',
+        sinopse: 'Tem por objetivo estimular as carreiras científico-tecnológicas, identificar jovens talentos, promover debates e'+
+        'atualizações sobre o tema, formar alunos capazes de'+
+        'estruturar e resolver problemas e de lidar com a tecnolo'+
+        'gia, especialmente robótica e estimular o estudo, a per'+
+        'sistência, o trabalho em equipe, a investigação e o apren'+
+        'dizado por meio da robótica.',
+        img1:'./assets/images/obr1.jpg',
+        img2:'./assets/images/obr2.jpg',
+        img3:'./assets/images/obr3.jpg',
+        img4:'./assets/images/obr4.jpg',
+        img5:'./assets/images/obr5.jpg',
         img6:''
     },
     {
@@ -55,31 +80,6 @@ export const EVENTOS: Evento[] = [
         img3:'./assets/images/obi3.jpg',
         img4:'./assets/images/obi4.jpg',
         img5:'',
-        img6:''
-    },
-    {
-        id: 'obr',
-        nome: 'Olimpíada Brasileira de Robótica',
-        imgvertical: '../assets/images/logo-obr.png',
-        imghorizontal: '../assets/images/obr.png',
-        periodicidade: 'Anual',
-        publicoalvo: 'Alunos do Ensino Fundamental e Médio',
-        local: 'Centro de Cultura e Eventos Prof. Ricardo Freua Bufáiçal - UFG',
-        tipo: 'Competição de estudantes do Ensino Médio e Fundamental',
-        estimativa: '1.000 pessoas',
-        itens: 'Camisetas, material gráfico, lanches, placas de acrílico, placas de MDF e perfis de alumínio.',
-        coordenador: 'Profa. Dra. Telma Woerle Soares e Prof. Dr. Anderson da Silva Soares',
-        sinopse: 'Tem por objetivo estimular as carreiras científico-tecnológicas, identificar jovens talentos, promover debates e'+
-        'atualizações sobre o tema, formar alunos capazes de'+
-        'estruturar e resolver problemas e de lidar com a tecnolo'+
-        'gia, especialmente robótica e estimular o estudo, a per'+
-        'sistência, o trabalho em equipe, a investigação e o apren'+
-        'dizado por meio da robótica.',
-        img1:'./assets/images/obr1.jpg',
-        img2:'./assets/images/obr2.jpg',
-        img3:'./assets/images/obr3.jpg',
-        img4:'./assets/images/obr4.jpg',
-        img5:'./assets/images/obr5.jpg',
         img6:''
     },
     {
