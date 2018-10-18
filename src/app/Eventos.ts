@@ -13,7 +13,7 @@ export const EVENTOS: Evento[] = [
         itens: 'Não divulgado.',
         tipo: 'Congresso',
         coordenador: 'Eliomar Araújo de Lima',
-        sinopse: '<a align="middle" href="assets/Programacao_14CBS.pdf" download><img src="assets/images/pdf.png">Programação Completa</a><br><br>O 14° Congresso Brasileiro de Sistemas será realizado nos dias 25 e 26 de outubro de 2018, em Goiânia, na Universidade Federal de Goiás, sob o título: "Pensamento Sistêmico em Revista: aprendizados e conquistas ante o superlativismo cibernético e a sociedade pós-industrial".<br><br>'+ 
+        sinopse: 'O 14° Congresso Brasileiro de Sistemas será realizado nos dias 25 e 26 de outubro de 2018, em Goiânia, na Universidade Federal de Goiás, sob o título: "Pensamento Sistêmico em Revista: aprendizados e conquistas ante o superlativismo cibernético e a sociedade pós-industrial".<br><br>'+ 
         'Visando propagação do conhecimento que vem sendo desenvolvido na área, serão bem-vindos os trabalhos dentro das seguintes temáticas:<br>'+
         'I. Epistemologia e Pesquisa Sistêmica<br>'+
         'II. Tecnologia e Sistemas e Informação e Comunicação<br>'+
