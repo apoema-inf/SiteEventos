@@ -15,7 +15,7 @@ export class SliderComponent implements OnInit {
   constructor(private eventoService: EventoService) { }
 
   ngOnInit() {
-    (<any>$('.slider')).slider({interval:10000});
+    (<any>$('.slider')).slider({interval:12000});
     this.eventoService.getEventos();
   }
 
