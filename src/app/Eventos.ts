@@ -5,7 +5,7 @@ export const EVENTOS: Evento[] = [
         id: 'cbs',
         nome: 'Congresso Brasileiro de Sistemas',
         imgvertical: "../assets/images/cbs-vertical.png",
-        imghorizontal: '../assets/images/cbs-horizontal.png',
+        imghorizontal: '../assets/images/cbs.jpg',
         periodicidade: 'Anual',
         estimativa: '300 pessoas',
         publicoalvo: 'Toda comunidade científica, pensadores e praticantes das abordagens sistêmicas, sistemistas e demais simpatizantes, em particular a comunidade de Sistemas de Informação. ',

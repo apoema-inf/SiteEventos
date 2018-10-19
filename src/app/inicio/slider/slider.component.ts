@@ -4,6 +4,7 @@ import { MaterializeAction } from 'angular2-materialize';
 import { Evento } from '../eventos/evento/Evento.model';
 import { TypeScriptEmitter } from '@angular/compiler';
 
+
 @Component({
   selector: 'app-slider',
   templateUrl: './slider.component.html',
@@ -14,7 +15,7 @@ export class SliderComponent implements OnInit {
   constructor(private eventoService: EventoService) { }
 
   ngOnInit() {
-    (<any>$('.slider')).slider();    
+    (<any>$('.slider')).slider({interval:10000});
     this.eventoService.getEventos();
   }
 

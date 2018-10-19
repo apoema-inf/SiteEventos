@@ -13,19 +13,13 @@
     font-weight: bold;
 }
 
-.linha-vertical {
-    height: 100%;/*Altura da linha*/
-    border-left: 1px solid grey;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+.font-responsive {
+    font-size: 1vw !important;
 }
 
-.vertical {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-}
-
-.bg { 
+.bg-responsive { 
     /* The image used */
-    background-image: url("assets/images/cbs2.png");
+    background-image: url("assets/images/cbs.jpg");
 
     /* Full height */
     height: 100%; 
@@ -34,4 +28,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bnt-responsive {
+    height: auto !important;
+}
+
+.second-nav{
+    height: 3em;
+    line-height: 45px;
+}
+.second-nav .material-icons{
+    line-height: 45px;
 }

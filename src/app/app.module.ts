@@ -17,7 +17,12 @@ import { EventosComponent } from './inicio/eventos/eventos.component';
 import { EventoDetalheComponent } from './evento-detalhe/evento-detalhe.component';
 import { EventoComponent } from './inicio/eventos/evento/evento.component';
 import * as $ from "jquery";
-import { ProgramacaocbsComponent } from './programacaocbs/programacaocbs.component';
+import { CbsComponent } from './cbs/cbs.component';
+import { CabecaComponent } from './cbs/cabeca/cabeca.component';
+import { FaixaComponent } from './cbs/faixa/faixa.component';
+import { ProgramacaoComponent } from './cbs/programacao/programacao.component';
+import { PalestrantesComponent } from './cbs/palestrantes/palestrantes.component';
+import { SessaotecnicaComponent } from './cbs/sessaotecnica/sessaotecnica.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +35,13 @@ import { ProgramacaocbsComponent } from './programacaocbs/programacaocbs.compone
     EventosComponent,
     EventoDetalheComponent,
     EventoComponent,
-    ProgramacaocbsComponent
+    CbsComponent,
+    CabecaComponent,
+    FaixaComponent,
+    ProgramacaoComponent,
+    SessaotecnicaComponent,
+    PalestrantesComponent
+    
   ],
   imports: [
     BrowserModule,

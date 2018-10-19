@@ -5,14 +5,18 @@ import { CommonModule } from '@angular/common';
 
 import { SobreComponent } from './sobre/sobre.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { ProgramacaocbsComponent } from './programacaocbs/programacaocbs.component';
+import { ProgramacaoComponent } from './cbs/programacao/programacao.component';
+import { SessaotecnicaComponent } from './cbs/sessaotecnica/sessaotecnica.component';
+import { PalestrantesComponent } from './cbs/palestrantes/palestrantes.component';
 
 const routes: Routes = [
    { path: '', redirectTo: '/inicio', pathMatch: 'full' },
    { path: 'inicio', component: InicioComponent},
    { path: 'sobre', component: SobreComponent},
    { path: 'evento/:id', component: EventoDetalheComponent },
-   { path: 'programacaocbs', component: ProgramacaocbsComponent}
+   { path: 'programacaocbs', component: ProgramacaoComponent},
+   { path: 'sessoes', component: SessaotecnicaComponent},
+   { path: 'palestrantes', component: PalestrantesComponent}
 ];
 
 @NgModule({
