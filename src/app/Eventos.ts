@@ -37,13 +37,15 @@ export const EVENTOS: Evento[] = [
         VI. Psicologia e Saúde<br>
         VII. Inovação Sistêmica<br>
         <br>
-        <p align="center"><b>Onde tudo começa...</b></p>
+        <hr>
+        <p align="center"><b>Onde tudo começa...</b><hr></p>
         <br>
         A 14ª edição do Congresso Brasileiro de Sistemas (CBS), organizado pela ISSS Brasil – International Society for the Systems Sciences, congrega várias comunidades acadêmicas e científicas de diversas áreas do conhecimento, que se identificam com as abordagens derivadas das teorias de sistemas e cibernética, envolvendo à aplicação generalista de arcabouços teórico-conceituais, frameworks, métodos, técnicas e ferramentas, sob a égide do pensamento e prática sistêmica para a resolução e estruturação de problemas nos âmbitos organizacional, político, social, tecnológico, cultural, legal e ambiental.
         <br><br>   
         Graças à amplitude e alcance do Congresso em nível nacional e internacional, a cada edição novos horizontes de aplicação são abordados e o número de interessados é crescente. No 14º CBS, o tema principal orbita em torno da Inovação Sistêmica, dos Sistemas de informação que permeiam o mundo cibernético e as contribuições para os desígnios da atual conjuntura que caracteriza a quarta revolução industrial.
         <br><br>
-        <p align="center"><b>Panorama da Conjuntura Contemporânea pautadas pela Inovação Sistêmica e a Indústria 4.0</b></p>
+        <hr>
+        <p align="center"><b>Panorama da Conjuntura Contemporânea pautadas pela Inovação Sistêmica e a Indústria 4.0</b><hr></p>
         <br>
         A história da humanidade é contada pelos movimentos, fatos, fenômenos e acontecimentos característicos de uma era (ou idade). Nesta contemporaneidade, o mundo em que vivemos está repleto de mudanças disruptivas, intempestivas e açodadas, decorrentes dos grandes avanços no âmbito das relações humanas, dos sistemas sociais e do desenvolvimento organizacional e tecnológico. O superlativismo cibernético e a sociedade pós-industrial desta era desencadeia contextos de grande volatilidade, incertezas, complexidades e ambiguidades, condicionando os modus operandi e vivendi. As três primeiras revoluções industriais trouxeram a produção em massa, as linhas de montagem, a eletricidade e a tecnologia da informação, tornando-se o cerne do desenvolvimento econômico. A quarta revolução industrial, que terá um impacto mais profundo e exponencial, se caracteriza, por um conjunto de tecnologias que permitem a fusão do mundo físico, digital e biológico.
         <br><br>
@@ -52,6 +54,27 @@ export const EVENTOS: Evento[] = [
         O âmbito altamente multidisciplinar que se encerra nas abordagens sistêmicas abrange o ecossistema de Ciência, Tecnologia e Inovação (CT&I). Possíveis áreas de interesse neste domínio variam das Ciências da Vida (por exemplo, redes biológicas e modelos baseados em agentes), Ecologia (por exemplo, modelos baseados em agentes / individuais), Ciências Sociais (por exemplo, simulação baseada em agente, análise de redes sociais), cienciometria (por exemplo, redes de citação), redes de cooperação e ambientes complexos, tais como redes de sensores sem fio, redes de sensores corporais, redes peer-to-Peer (P2P), redes móveis abrangentes, arquitetura orientada a serviços, rede inteligente e Internet das Coisas, além das tecnologias inteligentes. 
         <br><br>
         Um mundo de possibilidades emerge da rica teia de produções científicas e tecnológicas quando pautadas pela interdisciplinaridade subjacente dos sistemas e do mundo cibernético. Grande parte destes e de outros problemas na atual conjuntura social, econômica, política e tecnológica é de natureza não linear, contra intuitiva e exige novos pensamentos para sua solução. A Inovação Sistêmica (IS) se insere nesse contexto como sendo um termo de cunho acadêmico destinado para a tratativa de questões tipicamente encontradas no mundo corporativo e nas estruturas que sustentam as sociedades organizadas. Seus conhecimentos científicos são ainda por demais fragmentados e há falta de melhores ferramentas para sua aplicação e compreensão.
+        <br><br>
+        <ul class="collapsible popout">
+        <li>
+        <div class="collapsible-header"><b>Comitê Organizador Local</b></div>
+        <div class="collapsible-body"><p>Eliomar Araújo de Lima, Universidade Federal de Goiás (Coordenador Geral)</p>
+        <p>Vinícius Sebba Patto, Universidade Federal de Goiás (UFG)</p></div>
+        </li>
+        <li>
+        <div class="collapsible-header"><b>	Comitê Científico</b></div>
+        <div class="collapsible-body"><p>Eliomar Araújo de Lima, Universidade Federal de Goiás (UFG)</p>
+		<p>Leonardo Augusto Amaral Terra, Universidade de Ribeirão Preto(UNAERP)</p>
+		<p>Luciana Oranges Cezarino, Universidade Federal de Uberlândia (UFU)</p>
+		<p>Vinícius Sebba Patto, Universidade Federal de Goiás (UFG)</p></div>
+        </li>
+        <li>
+        <div class="collapsible-header"><b>Comitê de Apoio</b></div>
+        <div class="collapsible-body"><p>Carlos Hernane de Oliveira, Pós-graduando em Governança e Gestão de Sistemas e Tecnologias da Informação (INF/UFG)</p>
+		<p>Patrícia Galúcio C. Galvão (APOEMA/INF/UFG)</p>
+		<p>Thaynara M. M. Ribeiro, Graduanda em Ciência da Computação (INF/UFG)</p></div>
+        </li>
+        </ul>
         `,
         img1: './assets/images/cbs5.jpg',
         img2: './assets/images/cbs2.jpeg',
