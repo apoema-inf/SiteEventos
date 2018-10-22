@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
+declare var $:any;
+
 import { EventoService } from './../inicio/eventos/eventos.service';
 
 @Component({
@@ -20,6 +22,9 @@ export class EventoDetalheComponent implements OnInit {
   evento;
 
   ngOnInit() {
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+    });
     this.getEvento();
     document.getElementById("sinopse").innerHTML = this.evento.sinopse;
   }
