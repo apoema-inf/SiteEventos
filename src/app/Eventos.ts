@@ -14,14 +14,6 @@ export const EVENTOS: Evento[] = [
         tipo: 'Congresso',
         coordenador: 'Eliomar Araújo de Lima',
         sinopse: `
-        <div align="center" class="row">
-            <a class="cabeca-btn waves-effect waves-light btn blue darken-3" href="/evento/cbs">Visão Geral</a>
-            <a class="cabeca-btn waves-effect waves-light btn blue darken-3" href="/programacaocbs">Programação
-            Geral</a>
-            <a class="cabeca-btn waves-effect waves-light btn blue darken-3" href="/palestrantes">Palestrantes</a>
-            <a class="cabeca-btn waves-effect waves-light btn blue darken-3" href="http://conveniar.rtve.org.br/Eventos/Forms/Servicos/EventoDados.aspx?action=3">Inscrições</a>
-            <a class="cabeca-btn waves-effect waves-light btn blue darken-3" href="/sessoes">PROCEEDINGS</a>
-        </div>
         O tema desta edição é o “Pensamento Sistêmico em Revista: aprendizados e conquistas ante o superlativismo cibernético e a sociedade pós-industrial”.
         <br><br>
         Este ano o Congresso Brasileiro de Sistemas pretende repercutir e promover análises reflexivas sobre as abordagens sistêmicas irradiadas aos domínios de Ciência, Tecnologia e Inovação ao longo dos últimos 70 anos.

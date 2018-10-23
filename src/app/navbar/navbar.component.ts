@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationStart, Event as NavigationEvent } from '@angular/router';
 
 declare var $:any;
 
@@ -9,7 +10,19 @@ declare var $:any;
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  cbs = false;
+
+  constructor(router: Router) {
+    router.events.forEach((event: NavigationEvent) => {
+      if (event instanceof NavigationStart) {
+        this.cbs = false;
+        if (event.url === "/programacaocbs" || event.url === "/sessoes" || event.url === "/evento/cbs" ||
+          event.url === "/palestrantes") {
+          this.cbs = true;
+        }
+      }
+    });
+  }
 
   ngOnInit() {
     $(document).ready(function () {

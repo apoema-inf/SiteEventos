@@ -19,3 +19,33 @@
   <li routerLinkActive="active"><a routerLink="/inicio"><b>Inicio</b></a></li>
   <li routerLinkActive="active"><a routerLink="/sobre"><b>Sobre</b></a></li>
 </ul>
+
+<div *ngIf="cbs">
+  <div class="navbar-fixed ">
+    <nav class="green darken-3">
+      <div class="nav-wrapper container green darken-3">
+        <a id="logo-container" routerLink="/evento/cbs" class="brand-logo center">
+          <img style="padding-top:10px; max-width: 40px;" src="../assets/images/Logo_CBS.png">
+        </a>
+        <a href="#" data-activates="nav-mobile-cbs" class="button-collapse" materialize="sideNav" [materializeParams]="[{menuWidth: 300,edge: 'left', closeOnClick: true, draggable: true}]"><i
+            class="material-icons">menu</i>
+        </a>
+        <ul class="left hide-on-med-and-down">
+          <li routerLinkActive="active"><a routerLink="/programacaocbs"><b>Programação Geral</b></a></li>
+          <li routerLinkActive="active"><a href="http://conveniar.rtve.org.br/Eventos/Forms/Servicos/EventoDados.aspx?action=3"><b>Inscrições</b></a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li routerLinkActive="active"><a routerLink="/sessoes"><b>Sessões Técnicas</b></a></li>
+          <li routerLinkActive="active"><a routerLink="/palestrantes"><b>Palestrantes</b></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul id="nav-mobile-cbs" class="side-nav">
+    <li routerLinkActive="active"><a routerLink="/programacaocbs"><b>Programação Geral</b></a></li>
+    <li routerLinkActive="active"><a href="http://conveniar.rtve.org.br/Eventos/Forms/Servicos/EventoDados.aspx?action=3"><b>Inscrições</b></a></li>
+    <li routerLinkActive="active"><a routerLink="/sessoes"><b>Sessões Técnicas</b></a></li>
+    <li routerLinkActive="active"><a routerLink="/palestrantes"><b>Palestrantes</b></a></li>
+  </ul>
+</div>
