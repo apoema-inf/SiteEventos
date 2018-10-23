@@ -39,14 +39,8 @@
         <h5 class="white-text">Parceiros</h5>
         <hr style="width: 75%">
         <ul>
-          <li>
-            <a class="grey-text text-lighten-3 " href="#">Parceiro 1</a>
-          </li>
-          <li>
-            <a class="grey-text text-lighten-3 " href="#">Parceiro 2</a>
-          </li>
-          <li>
-            <a class="grey-text text-lighten-3 " href="#">Parceiro 3</a>
+          <li *ngFor="let patrocinador of patrocinadores">
+            <a class="grey-text text-lighten-3 " target="_blank" href="{{patrocinador.link}}">{{patrocinador.nome}}</a>
           </li>
         </ul>
       </div>
