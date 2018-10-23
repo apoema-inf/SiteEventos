@@ -1,0 +1,17 @@
+.scrolled ul a {
+    color: #0288d1;
+}
+
+.scrolled {
+    background-color: #fff !important;
+    transition: background-color 250ms linear;
+}
+
+.color {
+    background-color: #0288d1 ;
+    transition: background-color 250ms linear;
+}
+
+.scrolled .material-icons {
+    color: #0288d1;
+}
