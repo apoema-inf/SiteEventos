@@ -13,11 +13,12 @@ import { EventoService } from './../inicio/eventos/eventos.service';
 })
 export class EventoDetalheComponent implements OnInit {
 
-  constructor(
-    private route: ActivatedRoute,
+
+  constructor(private route: ActivatedRoute,
     private location: Location,
-    private eventoService: EventoService,
-  ){ }
+    private eventoService: EventoService) {
+  }
+
 
   evento;
 

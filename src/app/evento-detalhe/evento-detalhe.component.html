@@ -9,22 +9,22 @@
 
 <div class="white">
   <div class="container">
-    <br/>
+    <br />
     <h3 class="center">{{evento.nome}}</h3>
-    <br/>
+    <br />
     <p id="sinopse" class="fonte18">
       {{evento.sinopse}}
     </p>
-    <br/>
-    <br/>
+    <br />
+    <br />
   </div>
 </div>
 
 <div class="white galeria">
   <div class="container fonte18">
-    <br/>
+    <br />
     <h4 class="center">Organização</h4>
-    <br/>
+    <br />
     <div class="container">
       <table class="centered">
         <tbody>
@@ -43,16 +43,16 @@
         </tbody>
       </table>
     </div>
-    <br/>
-    <br/>
+    <br />
+    <br />
   </div>
 </div>
 
 <div class="bg-realiza">
   <div class="container fonte18">
-    <br/>
+    <br />
     <h4 class="center">Realização</h4>
-    <br/>
+    <br />
     <div class="container">
       <table class="centered">
         <tbody>
@@ -89,39 +89,39 @@
         </tbody>
       </table>
     </div>
-    <br/>
-    <br/>
+    <br />
+    <br />
   </div>
 </div>
 
 <div class="bg-fotos">
   <div class="container">
-    <br/>
+    <br />
     <h4 class="center white-text">Galeria</h4>
-    <br/>
+    <br />
     <div class="row">
       <div class="col s12 m6 l6">
         <img materialize="materialbox" class="materialboxed img-boxed" src={{evento.img1}}>
       </div>
       <div class="col s12 m6 l6">
-        <img  materialize="materialbox" class="materialboxed img-boxed" src={{evento.img2}}>
+        <img materialize="materialbox" class="materialboxed img-boxed" src={{evento.img2}}>
       </div>
       <div class="col s12 m6 l6">
-        <img  materialize="materialbox" class="materialboxed img-boxed" src={{evento.img3}}>
+        <img materialize="materialbox" class="materialboxed img-boxed" src={{evento.img3}}>
       </div>
       <div class="col s12 m6 l6">
-        <img  materialize="materialbox" class="materialboxed img-boxed" src={{evento.img4}}>
+        <img materialize="materialbox" class="materialboxed img-boxed" src={{evento.img4}}>
       </div>
       <div class="col s12 m6 l6">
-        <img  materialize="materialbox" class="materialboxed img-boxed" src={{evento.img5}}>
+        <img materialize="materialbox" class="materialboxed img-boxed" src={{evento.img5}}>
       </div>
       <div class="col s12 m6 l6">
-        <img  materialize="materialbox" class="materialboxed img-boxed" src={{evento.img6}}>
+        <img materialize="materialbox" class="materialboxed img-boxed" src={{evento.img6}}>
       </div>
 
     </div>
   </div>
-  <br/>
+  <br />
 </div>
 
 <p class="center">
@@ -129,3 +129,10 @@
     <i class="material-icons left small">arrow_back</i>Voltar
   </button>
 </p>
+
+<div *ngIf="faixa === true">
+  <div class="divider"></div>
+  <div align="center" class="section">
+    <img class="responsive-img" src="assets/images/cbs-rodape.png">
+  </div>
+</div>
