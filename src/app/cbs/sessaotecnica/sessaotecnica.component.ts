@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-sessaotecnica',
@@ -10,6 +11,10 @@ export class SessaotecnicaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function () {
+      $('.tabs').tabs();
+      $('.collapsible').collapsible();
+    });
   }
 
 }
