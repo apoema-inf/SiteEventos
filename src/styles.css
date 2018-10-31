@@ -45,3 +45,7 @@
 .cabeca-btn {
     margin-top: 20px;
 }
+
+.tabs .indicator {
+    background-color: #0277bd !important;
+}
