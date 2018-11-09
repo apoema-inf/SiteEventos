@@ -11,14 +11,18 @@ declare var $:any;
 export class NavbarComponent implements OnInit {
 
   cbs = false;
+  jges = false;
 
   constructor(router: Router) {
     router.events.forEach((event: NavigationEvent) => {
       if (event instanceof NavigationStart) {
         this.cbs = false;
+        this.jges = false;
         if (event.url === "/programacaocbs" || event.url === "/sessoes" || event.url === "/evento/cbs" ||
           event.url === "/palestrantes") {
           this.cbs = true;
+        } else if (event.url === "/evento/jges" || event.url === "/palestrantesjges") {
+          this.jges = true;
         }
       }
     });

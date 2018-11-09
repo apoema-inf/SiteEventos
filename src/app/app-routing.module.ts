@@ -8,6 +8,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ProgramacaoComponent } from './cbs/programacao/programacao.component';
 import { SessaotecnicaComponent } from './cbs/sessaotecnica/sessaotecnica.component';
 import { PalestrantesComponent } from './cbs/palestrantes/palestrantes.component';
+import { PalestrantesjgesComponent } from './jges/palestrantesjges/palestrantesjges.component';
+
 
 const routes: Routes = [
    { path: '', redirectTo: '/inicio', pathMatch: 'full' },
@@ -16,7 +18,8 @@ const routes: Routes = [
    { path: 'evento/:id', component: EventoDetalheComponent },
    { path: 'programacaocbs', component: ProgramacaoComponent},
    { path: 'sessoes', component: SessaotecnicaComponent},
-   { path: 'palestrantes', component: PalestrantesComponent}
+   { path: 'palestrantes', component: PalestrantesComponent},
+   { path: 'palestrantesjges', component: PalestrantesjgesComponent}
 ];
 
 @NgModule({

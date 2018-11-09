@@ -23,6 +23,10 @@ import { FaixaComponent } from './cbs/faixa/faixa.component';
 import { ProgramacaoComponent } from './cbs/programacao/programacao.component';
 import { PalestrantesComponent } from './cbs/palestrantes/palestrantes.component';
 import { SessaotecnicaComponent } from './cbs/sessaotecnica/sessaotecnica.component';
+import { JgesComponent } from './jges/jges.component';
+import { PalestrantesjgesComponent } from './jges/palestrantesjges/palestrantesjges.component';
+import { CabecajgesComponent } from './jges/cabecajges/cabecajges.component';
+import { FaixajgesComponent } from './jges/faixajges/faixajges.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,11 @@ import { SessaotecnicaComponent } from './cbs/sessaotecnica/sessaotecnica.compon
     FaixaComponent,
     ProgramacaoComponent,
     SessaotecnicaComponent,
-    PalestrantesComponent
+    PalestrantesComponent,
+    JgesComponent,
+    PalestrantesjgesComponent,
+    CabecajgesComponent,
+    FaixajgesComponent
     
   ],
   imports: [

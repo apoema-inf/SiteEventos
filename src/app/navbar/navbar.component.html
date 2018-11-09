@@ -49,3 +49,27 @@
     <li routerLinkActive="active"><a routerLink="/palestrantes"><b>Palestrantes</b></a></li>
   </ul>
 </div>
+
+<div *ngIf="jges">
+  <div class="navbar-fixed ">
+    <nav class="brown darken-4">
+      <div class="nav-wrapper container brown darken-4">
+        <a id="logo-container" routerLink="/evento/jges" class="brand-logo center">
+          JGES
+        </a>
+        <a href="#" data-activates="nav-mobile-cbs" class="button-collapse" materialize="sideNav" [materializeParams]="[{menuWidth: 300,edge: 'left', closeOnClick: true, draggable: true}]"><i
+            class="material-icons">menu</i>
+        </a>
+        <ul class="left hide-on-med-and-down">
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li routerLinkActive="active"><a routerLink="/palestrantesjges"><b>Palestrantes</b></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul id="nav-mobile-cbs" class="side-nav">
+    <li routerLinkActive="active"><a routerLink="/palestrantesjges"><b>Palestrantes</b></a></li>
+  </ul>
+</div>

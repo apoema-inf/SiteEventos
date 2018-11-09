@@ -2,6 +2,30 @@ import { Evento } from './inicio/eventos/evento/Evento.model';
 
 export const EVENTOS: Evento[] = [
     {
+        id: 'jges',
+        nome: '18ª Jornada Goiana de Engenharia de Software',
+        imgvertical: "../assets/images/fges-vertical.png",
+        imghorizontal: '../assets/images/jges-horizontal.png',
+        periodicidade: 'Anual',
+        estimativa: '100 pessoas',
+        publicoalvo: 'Alunos e profissionais da área de Engenharia de Software',
+        local: 'Auditórios diversos da UFG',
+        itens: 'Camisetas, serviços gráficos, lanches e material de papelaria',
+        tipo: 'Congresso',
+        coordenador: 'Profa. Adriana Silveira de Souza',
+        sinopse: `<p>A Jornada Goiânia em Engenharia de Software (JGES) é um evento consolidado e reconhecido como um dos principais fóruns de debate sobre a Engenharia de Software na Região Centro-Oeste do Brasil.</p>
+        <p>O tema da XVIII JGES é <b>"Recursos Humanos em Software - Uma questão estratégica"</b>. Será discutido desafios relacionados a talentos e competências de pessoas necessários para o trabalho em Engenharia de Software, com a ajuda de profissionais renomados dessa área. </p>
+        <p>Fórum para intercâmbio de experiências e para atualização de profissionais de ES. Proporciona à comunidade goiana de software palestras e debates relacionados com
+            'as melhores práticas da indústria de software e às novas tendências, métodos e ferramentas.</p>
+            <p><i>*Obs: O evento terá entrada franca, porém o número de vagas é limitado e por isso terão acesso ao auditório apenas os participantes previamente inscritos.</i></p>`,
+        img1: './assets/images/jges1.jpg',
+        img2: './assets/images/jges2.jpg',
+        img3: './assets/images/jges3.jpg',
+        img4: './assets/images/jges5.jpg',
+        img5: './assets/images/jges4.jpg',
+        img6: ''
+    },
+    {
         id: 'cbs',
         nome: 'Congresso Brasileiro de Sistemas',
         imgvertical: "../assets/images/cbs-vertical.png",
@@ -75,31 +99,7 @@ export const EVENTOS: Evento[] = [
         img5: './assets/images/capa-cbs.png',
         img6: ''
     },
-    {
-        id: 'obr',
-        nome: 'Olimpíada Brasileira de Robótica',
-        imgvertical: '../assets/images/logo-obr.png',
-        imghorizontal: '../assets/images/obr.png',
-        periodicidade: 'Anual',
-        publicoalvo: 'Alunos do Ensino Fundamental e Médio',
-        local: 'Centro de Cultura e Eventos Prof. Ricardo Freua Bufáiçal - UFG',
-        tipo: 'Competição de estudantes do Ensino Médio e Fundamental',
-        estimativa: '1.000 pessoas',
-        itens: 'Camisetas, material gráfico, lanches, placas de acrílico, placas de MDF e perfis de alumínio.',
-        coordenador: 'Profa. Dra. Telma Woerle Soares e Prof. Dr. Anderson da Silva Soares',
-        sinopse: 'Tem por objetivo estimular as carreiras científico-tecnológicas, identificar jovens talentos, promover debates e' +
-            'atualizações sobre o tema, formar alunos capazes de' +
-            'estruturar e resolver problemas e de lidar com a tecnolo' +
-            'gia, especialmente robótica e estimular o estudo, a per' +
-            'sistência, o trabalho em equipe, a investigação e o apren' +
-            'dizado por meio da robótica.',
-        img1: './assets/images/obr1.jpg',
-        img2: './assets/images/obr2.jpg',
-        img3: './assets/images/obr3.jpg',
-        img4: './assets/images/obr4.jpg',
-        img5: './assets/images/obr5.jpg',
-        img6: ''
-    },
+    
     {
         id: 'obi',
         nome: 'Olimpíada Brasileira de Informática',
@@ -126,6 +126,31 @@ export const EVENTOS: Evento[] = [
         img3: './assets/images/obi3.jpg',
         img4: './assets/images/obi4.jpg',
         img5: '',
+        img6: ''
+    },
+    {
+        id: 'obr',
+        nome: 'Olimpíada Brasileira de Robótica',
+        imgvertical: '../assets/images/logo-obr.png',
+        imghorizontal: '../assets/images/obr.png',
+        periodicidade: 'Anual',
+        publicoalvo: 'Alunos do Ensino Fundamental e Médio',
+        local: 'Centro de Cultura e Eventos Prof. Ricardo Freua Bufáiçal - UFG',
+        tipo: 'Competição de estudantes do Ensino Médio e Fundamental',
+        estimativa: '1.000 pessoas',
+        itens: 'Camisetas, material gráfico, lanches, placas de acrílico, placas de MDF e perfis de alumínio.',
+        coordenador: 'Profa. Dra. Telma Woerle Soares e Prof. Dr. Anderson da Silva Soares',
+        sinopse: 'Tem por objetivo estimular as carreiras científico-tecnológicas, identificar jovens talentos, promover debates e' +
+            'atualizações sobre o tema, formar alunos capazes de' +
+            'estruturar e resolver problemas e de lidar com a tecnolo' +
+            'gia, especialmente robótica e estimular o estudo, a per' +
+            'sistência, o trabalho em equipe, a investigação e o apren' +
+            'dizado por meio da robótica.',
+        img1: './assets/images/obr1.jpg',
+        img2: './assets/images/obr2.jpg',
+        img3: './assets/images/obr3.jpg',
+        img4: './assets/images/obr4.jpg',
+        img5: './assets/images/obr5.jpg',
         img6: ''
     },
     {
@@ -177,32 +202,6 @@ export const EVENTOS: Evento[] = [
         img3: './assets/images/ia3.JPG',
         img4: './assets/images/ia4.JPG',
         img5: '',
-        img6: ''
-    },
-    {
-        id: 'jges',
-        nome: 'Jornada Goiana de Engenharia de Software',
-        imgvertical: "../assets/images/fges-vertical.png",
-        imghorizontal: '../assets/images/jges-horizontal.png',
-        periodicidade: 'Anual',
-        estimativa: '100 pessoas',
-        publicoalvo: 'Alunos e profissionais da área de Engenharia de Software',
-        local: 'Auditórios diversos da UFG',
-        itens: 'Camisetas, serviços gráficos, lanches e material de papelaria',
-        tipo: 'Congresso',
-        coordenador: 'Prof. Dr. Fábio Nogueira de Lucena',
-        sinopse: 'Fórum para intercâmbio de experiências e' +
-            'para atualização de profissionais de ES.' +
-            'Proporciona à comunidade goiana de soft' +
-            'ware palestras e debates relacionados com' +
-            'as melhores práticas da indústria de soft' +
-            'ware e às novas tendências, métodos e' +
-            'ferramentas.',
-        img1: './assets/images/jges1.jpg',
-        img2: './assets/images/jges2.jpg',
-        img3: './assets/images/jges3.jpg',
-        img4: './assets/images/jges5.jpg',
-        img5: './assets/images/jges4.jpg',
         img6: ''
     },
     {
