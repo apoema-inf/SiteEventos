@@ -27,6 +27,7 @@ import { JgesComponent } from './jges/jges.component';
 import { PalestrantesjgesComponent } from './jges/palestrantesjges/palestrantesjges.component';
 import { CabecajgesComponent } from './jges/cabecajges/cabecajges.component';
 import { FaixajgesComponent } from './jges/faixajges/faixajges.component';
+import { InfIntineranteComponent } from './inf-intinerante/inf-intinerante.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { FaixajgesComponent } from './jges/faixajges/faixajges.component';
     JgesComponent,
     PalestrantesjgesComponent,
     CabecajgesComponent,
-    FaixajgesComponent
+    FaixajgesComponent,
+    InfIntineranteComponent
     
   ],
   imports: [
