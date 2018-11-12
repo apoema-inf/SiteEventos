@@ -92,14 +92,14 @@ export const EVENTOS: Evento[] = [
         </li>
         </ul>
         `,
-        img1: './assets/images/cbs5.jpg',
-        img2: './assets/images/cbs2.jpeg',
-        img3: './assets/images/cbs3.jpg',
-        img4: './assets/images/cbs4.jpeg',
-        img5: './assets/images/capa-cbs.png',
+        img1: '',
+        img2: '',
+        img3: '',
+        img4: '',
+        img5: '',
         img6: ''
     },
-    
+
     {
         id: 'obi',
         nome: 'Olimpíada Brasileira de Informática',
