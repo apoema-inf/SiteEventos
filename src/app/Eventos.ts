@@ -13,7 +13,10 @@ export const EVENTOS: Evento[] = [
         itens: 'Camisetas, serviços gráficos, lanches e material de papelaria',
         tipo: 'Congresso',
         coordenador: 'Profa. Adriana Silveira de Souza',
-        sinopse: `<p>A Jornada Goiânia em Engenharia de Software (JGES) é um evento consolidado e reconhecido como um dos principais fóruns de debate sobre a Engenharia de Software na Região Centro-Oeste do Brasil.</p>
+        sinopse: `<p>A décima oitava edição da JGES será uma realização conjunta do Instituto de Informática da UFG e da Escola de Ciências Exatas e de Computação da PUCGO e acontecerá no próximo dia 23 de novembro de 2018, sexta-feira, das 13h30 às 18h.</p>
+
+        <p>O evento será realizado no Auditório 1, da Área II da Escola de Ciências Exatas e de Computação da PUCGO, que fica na Praça Universitária, 2-102, Setor Leste Universitário.</p>
+        <p>A Jornada Goiânia em Engenharia de Software (JGES) é um evento consolidado e reconhecido como um dos principais fóruns de debate sobre a Engenharia de Software na Região Centro-Oeste do Brasil.</p>
         <p>O tema da XVIII JGES é <b>"Recursos Humanos em Software - Uma questão estratégica"</b>. Será discutido desafios relacionados a talentos e competências de pessoas necessários para o trabalho em Engenharia de Software, com a ajuda de profissionais renomados dessa área. </p>
         <p>Fórum para intercâmbio de experiências e para atualização de profissionais de ES. Proporciona à comunidade goiana de software palestras e debates relacionados com
             'as melhores práticas da indústria de software e às novas tendências, métodos e ferramentas.</p>
