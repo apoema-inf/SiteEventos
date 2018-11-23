@@ -21,12 +21,12 @@ export const EVENTOS: Evento[] = [
         <p>Fórum para intercâmbio de experiências e para atualização de profissionais de ES. Proporciona à comunidade goiana de software palestras e debates relacionados com
             'as melhores práticas da indústria de software e às novas tendências, métodos e ferramentas.</p>
             <p><i>*Obs: O evento terá entrada franca, porém o número de vagas é limitado e por isso terão acesso ao auditório apenas os participantes previamente inscritos.</i></p>`,
-        img1: './assets/images/jges1.jpg',
-        img2: './assets/images/jges2.jpg',
-        img3: './assets/images/jges3.jpg',
-        img4: './assets/images/jges5.jpg',
-        img5: './assets/images/jges4.jpg',
-        img6: ''
+        img1: './assets/images/jges/img1.jpeg',
+        img2: './assets/images/jges/img2.jpeg',
+        img3: './assets/images/jges/img3.jpeg',
+        img4: './assets/images/jges/img4.jpeg',
+        img5: './assets/images/jges/img5.jpeg',
+        img6: './assets/images/jges4.jpg'
     },
     {
         id: 'cbs',
@@ -232,29 +232,6 @@ export const EVENTOS: Evento[] = [
         img2: './assets/images/eri2.jpg',
         img3: './assets/images/eri3.jpg',
         img4: './assets/images/eri4.jpg',
-        img5: '',
-        img6: ''
-    },
-    {
-        id: 'dev',
-        nome: 'DEV Fest Cerrado',
-        imgvertical: "../assets/images/dev-vertical.jpg",
-        imghorizontal: '',
-        periodicidade: 'Anual',
-        estimativa: '700 pessoas',
-        publicoalvo: 'Profissionais e estudantes de TI em geral',
-        local: 'Salões de eventos e auditórios diversos',
-        itens: 'Camisetas, serviços gráficos, lanches e material de papelaria',
-        tipo: 'Congresso',
-        coordenador: 'Prof. Me. Marcelo Quinta',
-        sinopse: 'Grupo de Desenvolvedores do Google (GDG)' +
-            'é uma comunidade global de pessoas inte' +
-            'ressadas em aprender, utilizar e promover' +
-            'as tecnologias oferecidas pelo Google.',
-        img1: './assets/images/dev3.jpeg',
-        img2: './assets/images/dev1.jpeg',
-        img3: './assets/images/dev4.jpeg',
-        img4: './assets/images/dev3.jpeg',
         img5: '',
         img6: ''
     },
