@@ -26,7 +26,7 @@ export const EVENTOS: Evento[] = [
         img3: './assets/images/jges/img3.jpeg',
         img4: './assets/images/jges/img4.jpeg',
         img5: './assets/images/jges/img5.jpeg',
-        img6: './assets/images/jges4.jpg'
+        img6: './assets/images/jges/img6.jpeg'
     },
     {
         id: 'cbs',
