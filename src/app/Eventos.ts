@@ -9,7 +9,7 @@ export const EVENTOS: Evento[] = [
         periodicidade: 'Anual',
         estimativa: '100 pessoas',
         publicoalvo: 'Alunos e profissionais da área de Engenharia de Software',
-        local: 'Auditórios diversos da UFG',
+        local: 'Auditório 1, da Área II da Escola de Ciências Exatas e de Computação da PUCGO',
         itens: 'Camisetas, serviços gráficos, lanches e material de papelaria',
         tipo: 'Congresso',
         coordenador: 'Profa. Adriana Silveira de Souza',
