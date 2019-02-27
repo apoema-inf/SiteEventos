@@ -11,6 +11,7 @@ import { PalestrantesComponent } from './cbs/palestrantes/palestrantes.component
 import { PalestrantesjgesComponent } from './jges/palestrantesjges/palestrantesjges.component';
 import { InfIntineranteComponent } from './inf-intinerante/inf-intinerante.component';
 import { JgesComponent } from './jges/jges.component';
+import { DemaisEventosComponent } from './demais-eventos/demais-eventos.component';
 
 
 const routes: Routes = [
@@ -23,7 +24,8 @@ const routes: Routes = [
    { path: 'palestrantes', component: PalestrantesComponent},
    { path: 'palestrantesjges', component: PalestrantesjgesComponent},
    { path: 'inf-intinerante', component: InfIntineranteComponent},
-   { path: 'programacaojges', component: JgesComponent}
+   { path: 'programacaojges', component: JgesComponent},
+   { path: 'demais-eventos', component: DemaisEventosComponent}
 ];
 
 @NgModule({

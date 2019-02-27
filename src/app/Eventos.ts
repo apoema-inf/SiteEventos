@@ -112,17 +112,17 @@ export const EVENTOS: Evento[] = [
         publicoalvo: 'Alunos do Ensino Fundamental e Médio',
         local: 'Auditórios diversos da UFG',
         tipo: 'Competição de estudantes do ensino médio e superior',
-        itens: 'Camisetas, serviços gráficos, lanches e material de papelaria.',
+        itens: 'Camisetas, serviços gráficos, equipamentos, logística de deslocamento, lanches e material de papelaria.',
         estimativa: '100 pessoas',
         coordenador: 'Profº Wellington',
-        sinopse: 'A Olimpíada Brasíliera de Informática tem por objetivo' +
-            'aproximar a universidade e os alunos do ensino médio' +
+        sinopse: 'A Olimpíada Brasíliera de Informática tem por objetivo ' +
+            'aproximar a universidade e os alunos do ensino médio ' +
             'e fundamental, bem como promover a difusão dos con' +
             'teúdos de disciplinas de programação de computado' +
             'res; identificar talentos e vocações nas escolas, de mo' +
             'do a instruir e encaminhar os alunos para carreiras aca' +
-            'dêmica, científica e tecnológica, estabelecer o INF/UFG' +
-            'como sede da OBI em Goiás, em todas as fases da' +
+            'dêmica, científica e tecnológica, estabelecer o INF/UFG ' +
+            'como sede da OBI em Goiás, em todas as fases da ' +
             'competição.',
         img1: './assets/images/obi1.jpg',
         img2: './assets/images/obi2.jpg',
@@ -141,7 +141,7 @@ export const EVENTOS: Evento[] = [
         local: 'Centro de Cultura e Eventos Prof. Ricardo Freua Bufáiçal - UFG',
         tipo: 'Competição de estudantes do Ensino Médio e Fundamental',
         estimativa: '1.000 pessoas',
-        itens: 'Camisetas, material gráfico, lanches, placas de acrílico, placas de MDF e perfis de alumínio.',
+        itens: 'Doações financeiras, equipamentos, materiais para a competição, lanches, souvenirs, deslocamento de caravanas, material gráfico e camisetas.',
         coordenador: 'Profa. Dra. Telma Woerle Soares e Prof. Dr. Anderson da Silva Soares',
         sinopse: 'Tem por objetivo estimular as carreiras científico-tecnológicas, identificar jovens talentos, promover debates e' +
             'atualizações sobre o tema, formar alunos capazes de' +
@@ -165,18 +165,18 @@ export const EVENTOS: Evento[] = [
         estimativa: '180 pessoas',
         publicoalvo: 'Alunos de Graduação e Pós-graduação em cursos de informática',
         local: 'Instituto de Informática',
-        itens: 'Camisetas, material gráfico, lanches, balões, passagens e diárias, inscrições, etc.',
+        itens: 'Doações financeiras, camisetas, material gráfico, lanches, balões, passagens e diárias, inscrições, etc.',
         tipo: 'Competição de estudantes de graduação e pós-graduação.',
         coordenador: 'Prof. Dr. Humberto José Longo',
-        sinopse: 'A Maratona de Programação é um evento da' +
-            'Sociedade Brasileira de Computação que existe' +
-            'desde o ano de 1996.' +
+        sinopse: 'A Maratona de Programação é um evento da ' +
+            'Sociedade Brasileira de Computação que existe ' +
+            'desde o ano de 1996. ' +
             'O Evento tem por objetivo promover nos alunos participan' +
             'tes a criatividade, a capacidade de trabalho em equipe, a' +
-            'busca de novas soluções de software e a habilidade de' +
-            'resolver problemas sob pressão. De ano para ano temos' +
-            'observado que as instituições e principalmente as grandes' +
-            'empresas da área têm valorizado os alunos que participam' +
+            'busca de novas soluções de software e a habilidade de ' +
+            'resolver problemas sob pressão. De ano para ano temos ' +
+            'observado que as instituições e principalmente as grandes ' +
+            'empresas da área têm valorizado os alunos que participam ' +
             'da Maratona.',
         img1: './assets/images/m1.jpg',
         img2: './assets/images/m2.jpg',
@@ -194,12 +194,13 @@ export const EVENTOS: Evento[] = [
         estimativa: '150 pessoas',
         publicoalvo: 'Alunos de graduação e pós-graduação e profissionais da área.',
         local: 'Instituto de Informática',
-        itens: 'Camisetas, serviços gráficos, lanches e estandes.',
-        tipo: 'Mostra de trabalhos científicos',
+        itens: 'Doações financeiras, alimentação, hospedagens, passagens, brindes, premiações, equipamentos e logística de deslocamento.',
+        tipo: 'Mostra de trabalhos técnico-científicos',
         coordenador: 'Professores do Instituto de Informática da área de Inteligência Artificial.',
-        sinopse: 'Workshop de trabalhos dos cursos realiza' +
-            'dos pelos alunos do INF relacionados a' +
-            'Inteligência Artificial.',
+        sinopse: 'Evento destinado à exposição de trabalhos técnico-científicos realizados no âmbito '+
+        'dos programas de pós-graduação do INF, relacionados às temáticas de Inteligência Artificial e ' +
+        'Data-driven. Vem se despontando como a mostra mais importante da região na área, ' +
+        'despertando o interesse de agentes econômicos regionais e nacionais.',
         img1: './assets/images/ia1.JPG',
         img2: './assets/images/ia2.JPG',
         img3: './assets/images/ia3.JPG',
@@ -215,18 +216,18 @@ export const EVENTOS: Evento[] = [
         periodicidade: 'Anual',
         estimativa: '300 pessoas',
         publicoalvo: 'Alunos de Graduação e Pós-graduação, empresas, órgãos governamentais e profissionais da área.',
-        local: 'Auditórios e salas de aulas da UFG',
+        local: 'Itinerante - Espaços físicos de IES públicas e privadas do Estado de Goiás',
         itens: 'Camisetas, material gráfico, lanches, passagens e diárias, inscrições, etc.',
-        tipo: 'Congresso',
-        coordenador: 'Professores do Instituto de Informática',
+        tipo: 'Fórum/Seminário',
+        coordenador: 'Professores do Instituto de Informática e dos demais centros de formação em computação e informática de Goiás',
         sinopse: 'A Escola Regional de Informática – ERI, a Escola' +
-            'Regional de Sistemas - ERSI e o Escola Regio' +
-            'nal de Alto Desempenho - ERAD, desenvolvidos' +
+            ' Regional de Sistemas - ERSI e o Escola Regio' +
+            'nal de Alto Desempenho - ERAD, desenvolvidos ' +
             'em conjunto, pelo Instituto de Informática, de' +
             'cunho acadêmico e técnico/científico que con' +
-            'tém diversos assuntos inovadores na área de' +
+            'tém diversos assuntos inovadores na área de ' +
             'informática cujo principal propósito é aproxi' +
-            'mar a pesquisa científica das necessidades do' +
+            'mar a pesquisa científica das necessidades do ' +
             'comércio e da indústria do estado de Goiás.',
         img1: './assets/images/eri1.jpg',
         img2: './assets/images/eri2.jpg',
@@ -258,6 +259,32 @@ export const EVENTOS: Evento[] = [
         img2: './assets/images/esp2.jpg',
         img3: './assets/images/esp3.jpg',
         img4: './assets/images/esp4.jpg',
+        img5: '',
+        img6: ''
+    },
+    {
+        id: 'brconsoi',
+        nome: 'BrConSOI - BRAZILIAN CONFERENCE ON SOCIAL AND OPEN INNOVATION',
+        imgvertical: "../assets/images/logo-brconsoi.png",
+        imghorizontal: '../assets/images/brconsoi-horizontal.png',
+        periodicidade: 'Anual',
+        estimativa: '300 pessoas',
+        publicoalvo: ' Agentes econômicos do setor produtivo, Agentes governamentais e Comunidades técnico-científica e de Inovação',
+        local: 'Auditórios, salas e laboratórios da UFG e/ou demais entidades/centros educacionais/inovação',
+        itens: 'Doações financeiras, alimentação, hospedagens, passagens, brindes, premiações, equipamentos e logística de deslocamento.',
+        tipo: 'Mostra de trabalhos técnico-científicos',
+        coordenador: 'Instituto APOEMA',
+        sinopse: 'É um evento que visa proporcionar um espaço de difusão e de ' +
+        'interação de conhecimentos e experiências inovadoras no tocante à inovação ' +
+        'social e aberta. Ao se estabelecer como meio de contato entre comunidades ' +
+        'acadêmico-científicas e agentes econômicos, governamentais e demais que compõemas ' + 
+        'plataformas de ecossistemas de inovação social, espera-se alcançar uma inspiração mútua ' +
+        'e a criação de grupos de discussão capazes de encontrar soluções inovadoras para os emergentes' +
+        ' e os antigos problemas sociais.',
+        img1: '',
+        img2: '',
+        img3: '',
+        img4: '',
         img5: '',
         img6: ''
     }

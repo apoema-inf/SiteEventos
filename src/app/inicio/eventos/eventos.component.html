@@ -2,15 +2,25 @@
   <div class="container">
     <h4 class="deep-orange-text"><b>Eventos</b></h4>
     <div class="divider deep-orange"></div>
-    <br/>
+    <br />
     <div class="row">
 
-        <div *ngFor="let evento of eventos">
-          <div class="col s12 m6 l4">
-            <app-evento [evento]="evento"></app-evento>
+      <div *ngFor="let evento of eventos">
+        <div class="col s12 m6 l4">
+          <app-evento [evento]="evento"></app-evento>
+        </div>
+      </div>
+
+      <div class="col s12 m6 l4">
+        <div class="hover-animation card  waves-effect" routerLink="/demais-eventos">
+          <div class="card-image">
+            <img src="../assets/images/outros-vertical.png">
+          </div>
+          <div class="card-action">
+            <a class="btn deep-orange">Confira</a>
           </div>
         </div>
-
+      </div>
     </div>
     <!--row-->
 

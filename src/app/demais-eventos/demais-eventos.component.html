@@ -1,0 +1,52 @@
+<nav class="second-nav deep-orange">
+  <div class="nav-wrapper container">
+    <a routerLink="/" class="breadcrumb waves-effect waves-light">
+      <i class="large material-icons left ">arrow_back</i>Voltar
+    </a>
+  </div>
+</nav>
+<img style="width: 100%;">
+<!--<img src="{{evento.imghorizontal}}" style="width: 100%;">-->
+
+<div class="white" style="color: #0a2343">
+  <div class="container">
+    <div class="row">
+      <div class="col s6 ap-titulo-eventos">
+        <h4 align="center">Descrição</h4>
+      </div>
+      <div class="col s4 ap-titulo-eventos" style="margin-left: 10px">
+          <h4 align="center">Público</h4>
+      </div>
+    </div>
+    <ng-container *ngFor="let evento of eventos">
+      <div class="row">
+        <div class="col s6">
+          <p style="text-align: justify;"><b>{{evento.titulo}}: </b>{{evento.descricao}}</p>
+        </div>
+        <div class="col s4">
+          <p style="text-align: center;">{{evento.publico}}</p>
+        </div>
+      </div>
+    </ng-container>
+
+  </div>
+</div>
+
+<div class="white ap-titulo-eventos">
+    <div class="container fonte18">
+      <br />
+      <h4 class="center">Apoio</h4>
+      <br />
+      <div class="container">
+          <p style="text-align: center;">Doações financeiras, alimentação de participantes, conferencistas e palestrantes, hospedagem de conferencistas e palestrantes, passagem de conferencistas e palestrantes, brindes e premiações, equipamentos e materiais para suporte, logística de deslocamento e de acomodação.</p>
+      </div>
+      <br />
+      <br />
+    </div>
+  </div>
+
+<p class="center">
+  <button class="btn deep-orange" (click)="goBack()">
+    <i class="material-icons left small">arrow_back</i>Voltar
+  </button>
+</p>
