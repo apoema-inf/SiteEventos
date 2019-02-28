@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-demais-eventos',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DemaisEventosComponent implements OnInit {
 
-  constructor() { }
+  constructor(private location: Location) { }
 
   eventos = [
     {
@@ -41,6 +42,10 @@ export class DemaisEventosComponent implements OnInit {
   ]
 
   ngOnInit() {
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 
 }
