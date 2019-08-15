@@ -2,6 +2,38 @@ import { Evento } from './inicio/eventos/evento/Evento.model';
 
 export const EVENTOS: Evento[] = [
     {
+        id: 'jsint',
+        nome: '6ª Semana de Integração INF',
+        imgvertical: "../assets/images/sinf-horizontal.png",
+        imghorizontal: '../assets/images/sinf-hor3.png',
+        periodicidade: 'Semestral',
+        estimativa: '300 pessoas',
+        publicoalvo: 'Alunos e Comunidade',
+        local: 'Instituto de Informática',
+        itens: 'Camisetas, serviços gráficos, lanches e material de papelaria',
+        tipo: 'Acadêmico',
+        coordenador: 'Comissão de Graduação do INF',
+        sinopse: `<p>Nos dias 19 a 24 de agosto o Instituto de Informática da UFG realizará a 6ª Semana de Integração - 2019/2. Este evento tem como finalidade de acolher os alunos ingressantes dos cursos de Sistemas de Informação e Ciência da Computação e oportunizar momentos e espaços de interação mútuo, envolvendo os alunos veteranos da graduação e pós-graduação, os professores, os servidores técnico-administrativos, pais, parentes e amigos e a comunidade do INF.</p>
+
+        <p>Esta edição contará com vários eventos, preparados especialmente para todos aqueles que estudam, pesquisam e aprendem com o Instituto de Informática, alguns dos quais serão estendidos para familiares e a comunidade em geral.</p>
+        <p>Confira a programação da 6ª Semana da Integração - 2019/2 e participe.</p>
+        <p><b>Acesse detalhes da programação no link abaixo:</b></p>
+        <a class="btn red slide-cbs-btn" href="https://gallery.mailchimp.com/9013d4dd94e91a0245890c31e/files/3735d2e1-1983-4eb3-b435-00ed0428f01b/C%C3%B3pia_de_IntegracaoINF20192_Integra2019_2.02.pdf" target="_blank">Programação</a><br><br>
+        <p><b>Inscrições:</b></p><br>
+        <a class="btn green slide-cbs-btn" href="http://bit.ly/2ZY0bQi" target="_blank">Feira</a>
+        <a class="btn blue slide-cbs-btn" href="http://bit.ly/2yVuxa1" target="_blank">Bootcamp</a>
+        <a class="btn olive slide-cbs-btn" href="https://forms.gle/1wwZEjYUJD4WZfiY9" target="_blank">Pitch</a>
+        <a class="btn red slide-cbs-btn" href="https://forms.gle/ikCS4aQy2Ahdk1MA7" target="_blank">HackaINF</a>
+        `,
+        img1: './assets/images/sinf/6.png',
+        img2: './assets/images/sinf/1.png',
+        img3: './assets/images/sinf/3.png',
+        img4: './assets/images/sinf/2.png',
+        img5: './assets/images/sinf/5.png',
+        img6: './assets/images/sinf/4.png'
+
+    },
+    {
         id: 'jges',
         nome: '18ª Jornada Goiana de Engenharia de Software',
         imgvertical: "../assets/images/fges-vertical.png",
