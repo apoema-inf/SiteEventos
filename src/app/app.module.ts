@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 
 import { InicioComponent } from './inicio/inicio.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { ErsigoComponent } from './ersigo/ersigo.component';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -35,6 +36,7 @@ import { DemaisEventosComponent } from './demais-eventos/demais-eventos.componen
     AppComponent,
     InicioComponent,
     SobreComponent,
+    ErsigoComponent,
     NavbarComponent,
     FooterComponent,
     SliderComponent,

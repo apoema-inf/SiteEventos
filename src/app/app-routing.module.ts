@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 import { SobreComponent } from './sobre/sobre.component';
+import { ErsigoComponent } from './ersigo/ersigo.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { ProgramacaoComponent } from './cbs/programacao/programacao.component';
 import { SessaotecnicaComponent } from './cbs/sessaotecnica/sessaotecnica.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
    { path: '', redirectTo: '/inicio', pathMatch: 'full' },
    { path: 'inicio', component: InicioComponent},
    { path: 'sobre', component: SobreComponent},
+   { path: 'ersigo', component: ErsigoComponent},
    { path: 'evento/:id', component: EventoDetalheComponent },
    { path: 'programacaocbs', component: ProgramacaoComponent},
    { path: 'sessoes', component: SessaotecnicaComponent},

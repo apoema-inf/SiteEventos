@@ -1,12 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router, NavigationStart, Event as NavigationEvent } from '@angular/router';
+import { ErsigoComponent } from '../ersigo/ersigo.component';
 
 declare var $: any;
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class NavbarComponent implements OnInit {
 
@@ -29,6 +31,7 @@ export class NavbarComponent implements OnInit {
     });
   }
 
+
   ngOnInit() {
     $(document).ready(function () {
       $(document).scroll(function () {
@@ -36,6 +39,7 @@ export class NavbarComponent implements OnInit {
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
       });
     });
+    
   }
 
 }

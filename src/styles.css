@@ -8,6 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.navbar-fixed {
+    visibility: visible;
+}
 
 .font-bold {
     font-weight: bold;
@@ -49,4 +52,5 @@
 .tabs .indicator {
     background-color: #0277bd !important;
 }
+
 
