@@ -10,7 +10,8 @@
       <ul class="right hide-on-med-and-down">
         <li routerLinkActive="active"><a routerLink="/inicio"><b>Inicio</b></a></li>
         <li routerLinkActive="active"><a routerLink="/sobre"><b>Sobre</b></a></li>
-        <li routerLinkActive="active"><a routerLink="/ersigo"><b>ERSIGO</b></a></li>
+        
+        
       </ul>
     </div>
   </nav>
@@ -19,9 +20,38 @@
 <ul id="nav-mobile" class="side-nav">
   <li routerLinkActive="active"><a routerLink="/inicio"><b>Inicio</b></a></li>
   <li routerLinkActive="active"><a routerLink="/sobre"><b>Sobre</b></a></li>
-  <li routerLinkActive="active"><a routerLink="/ersigo"><b>ERSIGO</b></a></li>
+  
 </ul>
 
+<div *ngIf="ersigo">
+    <div class="navbar-fixed ">
+      <nav class="green darken-3">
+        <div class="nav-wrapper container green darken-3">
+          <a id="logo-container" routerLink="/ersigo" class="brand-logo center">
+            <img style="padding-top:10px; max-width: 40px;" src="../assets/images/LOGO-ERSI.png">
+          </a>
+          <a href="#" data-activates="nav-mobile-cbs" class="button-collapse" materialize="sideNav" [materializeParams]="[{menuWidth: 300,edge: 'left', closeOnClick: true, draggable: true}]"><i
+              class="material-icons">menu</i>
+          </a>
+          <ul class="left hide-on-med-and-down">
+            <li routerLinkActive="active"></li>
+            <li routerLinkActive="active"></li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+            <li routerLinkActive="active"></li>
+            <li routerLinkActive="active"><a href="http://erigo.sbc.org.br/p/242-programacao-geral">Programação</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  
+    <ul id="nav-mobile-cbs" class="side-nav">
+      <li routerLinkActive="active"><a href="http://erigo.sbc.org.br/p/242-programacao-geral">Programação</a></li>
+      <li></li>
+      <li routerLinkActive="active"></li>
+      <li routerLinkActive="active"></li>
+    </ul>
+  </div>
 <div *ngIf="cbs">
   <div class="navbar-fixed ">
     <nav class="green darken-3">
@@ -74,8 +104,35 @@
   </div>
 
   <ul id="nav-mobile-cbs" class="side-nav">
-      <li><a routerLink="/programacaojges"><b>Programação</b></a></li>
+      <li><a routerLink="/programacaojges2019"><b>Programação</b></a></li>
     <li><a href="https://goo.gl/forms/cmdoJzaDd4tVG37y1" target="_blank"><b>Inscrições</b></a></li>
-    <li routerLinkActive="active"><a routerLink="/palestrantesjges"><b>Palestrantes</b></a></li>
+    <li routerLinkActive="active"><a routerLink="/palestrantesjges2019"><b>Palestrantes</b></a></li>
+  </ul>
+</div>
+<div *ngIf="jges2019">
+  <div class="navbar-fixed ">
+    <nav class="brown darken-3">
+      <div class="nav-wrapper container brown darken-3">
+        <a id="logo-container" routerLink="/evento/jges2019" class="brand-logo center">
+          <img style="padding-top:10px; max-width: 30px;" src="assets/images/jges/logo.png">
+        </a>
+        <a href="#" data-activates="nav-mobile-cbs" class="button-collapse" materialize="sideNav" [materializeParams]="[{menuWidth: 300,edge: 'left', closeOnClick: true, draggable: true}]"><i
+            class="material-icons">menu</i>
+        </a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="https://goo.gl/forms/cmdoJzaDd4tVG37y1" target="_blank"><b>Inscrições</b></a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+            <li routerLinkActive="active"><a routerLink="/programacaojges2019"><b>Programação</b></a></li>
+          <li routerLinkActive="active"><a routerLink="/palestrantesjges2019"><b>Palestrantes</b></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul id="nav-mobile-cbs" class="side-nav">
+      <li><a routerLink="/programacaojges2019"><b>Programação</b></a></li>
+    <li><a href="https://goo.gl/forms/cmdoJzaDd4tVG37y1" target="_blank"><b>Inscrições</b></a></li>
+    <li routerLinkActive="active"><a routerLink="/palestrantesjges2019"><b>Palestrantes</b></a></li>
   </ul>
 </div>

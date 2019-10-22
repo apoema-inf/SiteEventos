@@ -11,6 +11,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { ErsigoComponent } from './ersigo/ersigo.component';
 
+
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SliderComponent } from './inicio/slider/slider.component';
@@ -28,8 +29,13 @@ import { JgesComponent } from './jges/jges.component';
 import { PalestrantesjgesComponent } from './jges/palestrantesjges/palestrantesjges.component';
 import { CabecajgesComponent } from './jges/cabecajges/cabecajges.component';
 import { FaixajgesComponent } from './jges/faixajges/faixajges.component';
+import { Jges2019Component } from './jges2019/jges2019.component';
+import { Palestrantesjges2019Component } from './jges2019/palestrantesjges2019/palestrantesjges2019.component';
+import { Cabecajges2019Component } from './jges2019/cabecajges2019/cabecajges2019.component';
+import { Faixajges2019Component } from './jges2019/faixajges2019/faixajges2019.component';
 import { InfIntineranteComponent } from './inf-intinerante/inf-intinerante.component';
 import { DemaisEventosComponent } from './demais-eventos/demais-eventos.component';
+
 
 @NgModule({
   declarations: [
@@ -53,6 +59,10 @@ import { DemaisEventosComponent } from './demais-eventos/demais-eventos.componen
     PalestrantesjgesComponent,
     CabecajgesComponent,
     FaixajgesComponent,
+    Jges2019Component,
+    Palestrantesjges2019Component,
+    Cabecajges2019Component,
+    Faixajges2019Component,
     InfIntineranteComponent,
     DemaisEventosComponent
     

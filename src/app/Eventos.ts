@@ -2,6 +2,61 @@ import { Evento } from './inicio/eventos/evento/Evento.model';
 
 export const EVENTOS: Evento[] = [
     {
+        id: 'eri-ersi-erad',
+        nome:  'Escolas Regionais Reconhecidas pela SBC ',
+        imgvertical: "../assets/images/ersigo-vertical.png",
+        imghorizontal: '',
+        periodicidade: 'Anual',
+        estimativa: '300 pessoas',
+        publicoalvo: 'Alunos de Graduação e Pós-graduação, empresas, órgãos governamentais e profissionais da área.',
+        local: 'Itinerante - Espaços físicos de IES públicas e privadas do Estado de Goiás',
+        itens: 'Camisetas, material gráfico, lanches, passagens e diárias, inscrições, etc.',
+        tipo: 'Fórum/Seminário',
+        coordenador: 'Professores do Instituto de Informática e dos demais centros de formação em computação e informática de Goiás',
+        sinopse: 'A Escola Regional de Informática de Goiás – ERI-GO,'+ 
+        ' a Escola Regional de Sistemas de Informação de Goiás – ERSI-GO'+
+        ' e a Escola Regional de Alto Desempenho do Centro-Oeste – ERAD-CO,'+
+        ' criadas pelo Instituto de Informática, de cunho acadêmico e técnico/científico,'+
+        ' provêem espaços de discussão, painéis temáticos, palestras especializadas,'+
+        ' apresentação de trabalhos técnicos para as comunidades das áreas da computação'+
+        ' e público em geral da região, além de abordar temas inovadores na área de informática,'+
+        ' com o propósito de aproximar a pesquisa científica das necessidades do setor produtivo'+
+        ' locoregional e da sociedade em geral.',
+        img1: './assets/images/eri1.jpg',
+        img2: './assets/images/eri2.jpg',
+        img3: './assets/images/eri3.jpg',
+        img4: './assets/images/eri4.jpg',
+        img5: '',
+        img6: ''
+    },
+    {
+        id: 'jges2019',
+        nome: '19ª Jornada Goiana de Engenharia de Software',
+        imgvertical: "../assets/images/fges-vertical.png",
+        imghorizontal: '../assets/images/jges-horizontal.png',
+        periodicidade: 'Anual',
+        estimativa: '100 pessoas',
+        publicoalvo: 'Alunos e profissionais da área de Engenharia de Software',
+        local: 'Auditório 1, da Área II da Escola de Ciências Exatas e de Computação da PUCGO',
+        itens: 'Camisetas, serviços gráficos, lanches e material de papelaria',
+        tipo: 'Congresso',
+        coordenador: 'Profa. Adriana Silveira de Souza',
+        sinopse: `<p>A décima nona edição da JGES será uma realização conjunta do Instituto de Informática da UFG e da Escola de Ciências Exatas e de Computação da PUCGO e acontecerá no próximo dia 13 de novembro de 2019, sexta-feira, das 09h00 às 18h.</p>
+
+        <p>O evento será realizado no Auditório 1, da Área II da Escola de Ciências Exatas e de Computação da PUCGO, que fica na Praça Universitária, 2-102, Setor Leste Universitário.</p>
+        <p>A Jornada Goiânia em Engenharia de Software (JGES) é um evento consolidado e reconhecido como um dos principais fóruns de debate sobre a Engenharia de Software na Região Centro-Oeste do Brasil.</p>
+        <p>O tema da XIV JGES é <b>"Saúde Mental e TI: Uma questão Estratégica"</b>. Será discutido desafios relacionados a talentos e competências de pessoas necessários para o trabalho em Engenharia de Software, com a ajuda de profissionais renomados dessa área. </p>
+        <p>Fórum para intercâmbio de experiências e para atualização de profissionais de ES. Proporciona à comunidade goiana de software palestras e debates relacionados com
+            'as melhores práticas da indústria de software e às novas tendências, métodos e ferramentas.</p>
+            <p><i>*Obs: O evento terá entrada franca, porém o número de vagas é limitado e por isso terão acesso ao auditório apenas os participantes previamente inscritos.</i></p>`,
+        img1: './assets/images/jges/img1.jpeg',
+        img2: './assets/images/jges/img2.jpeg',
+        img3: './assets/images/jges/img3.jpeg',
+        img4: './assets/images/jges/img4.jpeg',
+        img5: './assets/images/jges/img5.jpeg',
+        img6: './assets/images/jges/img6.jpeg'
+    },
+    {
         id: 'jsint',
         nome: '6ª Semana de Integração INF',
         imgvertical: "../assets/images/sinf-horizontal.png",
@@ -33,6 +88,7 @@ export const EVENTOS: Evento[] = [
         img6: './assets/images/sinf/4.png'
 
     },
+    
     {
         id: 'jges',
         nome: '18ª Jornada Goiana de Engenharia de Software',
@@ -240,34 +296,7 @@ export const EVENTOS: Evento[] = [
         img5: '',
         img6: ''
     },
-    {
-        id: 'eri-ersi-erad',
-        nome: 'ERI-GO ERSI-GO ERAD-GO',
-        imgvertical: "../assets/images/ersigo-vertical.png",
-        imghorizontal: '',
-        periodicidade: 'Anual',
-        estimativa: '300 pessoas',
-        publicoalvo: 'Alunos de Graduação e Pós-graduação, empresas, órgãos governamentais e profissionais da área.',
-        local: 'Itinerante - Espaços físicos de IES públicas e privadas do Estado de Goiás',
-        itens: 'Camisetas, material gráfico, lanches, passagens e diárias, inscrições, etc.',
-        tipo: 'Fórum/Seminário',
-        coordenador: 'Professores do Instituto de Informática e dos demais centros de formação em computação e informática de Goiás',
-        sinopse: 'A Escola Regional de Informática – ERI, a Escola' +
-            ' Regional de Sistemas - ERSI e o Escola Regio' +
-            'nal de Alto Desempenho - ERAD, desenvolvidos ' +
-            'em conjunto, pelo Instituto de Informática, de' +
-            'cunho acadêmico e técnico/científico que con' +
-            'tém diversos assuntos inovadores na área de ' +
-            'informática cujo principal propósito é aproxi' +
-            'mar a pesquisa científica das necessidades do ' +
-            'comércio e da indústria do estado de Goiás.',
-        img1: './assets/images/eri1.jpg',
-        img2: './assets/images/eri2.jpg',
-        img3: './assets/images/eri3.jpg',
-        img4: './assets/images/eri4.jpg',
-        img5: '',
-        img6: ''
-    },
+    
     {
         id: 'esp-prof',
         nome: 'Espaço das Profissões',
