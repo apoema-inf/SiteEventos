@@ -32,8 +32,8 @@ export const EVENTOS: Evento[] = [
     {
         id: 'jges2019',
         nome: '19ª Jornada Goiana de Engenharia de Software',
-        imgvertical: "../assets/images/fges-vertical.png",
-        imghorizontal: '../assets/images/jges-horizontal.png',
+        imgvertical: "../assets/images/jges2019-vertical.png",
+        imghorizontal: '../assets/images/Banner-jges2019.jpg',
         periodicidade: 'Anual',
         estimativa: '100 pessoas',
         publicoalvo: 'Alunos e profissionais da área de Engenharia de Software',
@@ -59,7 +59,7 @@ export const EVENTOS: Evento[] = [
     {
         id: 'jsint',
         nome: '6ª Semana de Integração INF',
-        imgvertical: "../assets/images/sinf-horizontal.png",
+        imgvertical: "../assets/images/sinf-verticall.png",
         imghorizontal: '../assets/images/sinf-hor3.png',
         periodicidade: 'Semestral',
         estimativa: '300 pessoas',
