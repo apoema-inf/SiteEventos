@@ -35,11 +35,11 @@ export const EVENTOS: Evento[] = [
         imgvertical: "../assets/images/jges2019-vertical.png",
         imghorizontal: '../assets/images/Banner-jges2019.jpg',
         periodicidade: 'Anual',
-        estimativa: '100 pessoas',
+        estimativa: '300 pessoas',
         publicoalvo: 'Alunos e profissionais da área de Engenharia de Software',
         local: 'Auditório 1, da Área II da Escola de Ciências Exatas e de Computação da PUCGO',
         itens: 'Camisetas, serviços gráficos, lanches e material de papelaria',
-        tipo: 'Congresso',
+        tipo: 'Jornada',
         coordenador: 'Profa. Adriana Silveira de Souza',
         sinopse: `<p>A décima nona edição da JGES será uma realização conjunta do Instituto de Informática da UFG e da Escola de Ciências Exatas e de Computação da PUCGO e acontecerá no próximo dia 13 de novembro de 2019, sexta-feira, das 09h00 às 18h.</p>
 
